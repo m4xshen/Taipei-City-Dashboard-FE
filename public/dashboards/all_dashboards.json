@@ -7,6 +7,12 @@
 			"icon": "pedal_bike"
 		},
 		{
+			"name": "觀光旅遊",
+			"index": "travel",
+			"components": ["75"],
+			"icon": "pedal_bike"
+		},
+		{
 			"name": "民情熱議",
 			"index": "public-opinion",
 			"components": ["5", "72"],

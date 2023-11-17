@@ -1,4 +1,6 @@
 export const chartTypes = {
+	CircleBarChart: "橫向圓圈長條圖",
+	CircleChart: "圓形數字圖",
 	DonutChart: "圓餅圖",
 	BarChart: "橫向長條圖",
 	ColumnChart: "縱向長條圖",

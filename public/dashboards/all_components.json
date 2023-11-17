@@ -1920,6 +1920,80 @@
 			"tags": [],
 			"contributors": ["tuic"]
 		},
+		"75": {
+			"id": 75,
+			"index": "shopping_area",
+			"map_config": [
+				{
+					"index": "shopping_area",
+					"property": [
+						{
+							"key": "NAME",
+							"name": "商圈名稱"
+						},
+						{
+							"key": "district",
+							"name": "商圈所在行政區"
+						},
+						{
+							"key": "MRT",
+							"name": "鄰近捷運站"
+						},
+						{
+							"key": "type",
+							"name": "分類"
+						},
+						{
+							"key": "description",
+							"name": "介紹"
+						}
+					],
+					"paint": {
+						"circle-color": "#3f51b5"
+					},
+					"type": "circle",
+					"size": "big",
+					"title": "商圈"
+				}
+			],
+			"chart_config": {
+				"color": ["#2f9ca1"],
+				"types": ["CircleChart", "CircleBarChart"],
+				"unit": "個",
+				"map_filter": [
+					"c_name",
+					[
+						"北投",
+						"士林",
+						"內湖",
+						"南港",
+						"松山",
+						"信義",
+						"中山",
+						"大同",
+						"中正",
+						"萬華",
+						"大安",
+						"文山"
+					]
+				]
+			},
+			"name": "熱門商圈",
+			"history_data": true,
+			"source": "台北市商業處",
+			"time_from": "2023-05-26T23:29:00+08:00",
+			"time_to": null,
+			"update_freq": 30,
+			"update_freq_unit": "minute",
+			"short_desc": "顯示過去一段時間內全市捷運進出站人流變化",
+			"long_desc": "顯示過去一段時間內全市捷運進出站人流變化，資料來源為台北市捷運工程局內部資料，每30分鐘更新。",
+			"use_case": "掌握過去一段時間內台北市捷運進出站人流變化，包括高峰與低峰時段，有助於更好地管理交通流量與安排車輛運行。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=63f31c7e-7fc3-418b-bd82-b95158755b4d"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
 		"74": {
 			"id": 74,
 			"index": "metro_3d",
