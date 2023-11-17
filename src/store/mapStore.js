@@ -74,7 +74,7 @@ export const useMapStore = defineStore("map", {
 				})
 				.on("idle", () => {
 					this.loadingLayers = this.loadingLayers.filter(
-						(el) => el !== "rendering"
+						(el) => el !== "rendering",
 					);
 				});
 		},
@@ -129,7 +129,7 @@ export const useMapStore = defineStore("map", {
 					(error, image) => {
 						if (error) throw error;
 						this.map.addImage(element, image);
-					}
+					},
 				);
 			});
 		},
@@ -147,7 +147,7 @@ export const useMapStore = defineStore("map", {
 					this.turnOnMapLayerVisibility(mapLayerId);
 					if (
 						!this.currentVisibleLayers.find(
-							(element) => element === mapLayerId
+							(element) => element === mapLayerId,
 						)
 					) {
 						this.currentVisibleLayers.push(mapLayerId);
@@ -232,7 +232,7 @@ export const useMapStore = defineStore("map", {
 			this.mapConfigs[map_config.layerId] = map_config;
 			this.currentVisibleLayers.push(map_config.layerId);
 			this.loadingLayers = this.loadingLayers.filter(
-				(el) => el !== map_config.layerId
+				(el) => el !== map_config.layerId,
 			);
 		},
 		// 4-2. Add Map Layer for Arc Maps
@@ -273,7 +273,7 @@ export const useMapStore = defineStore("map", {
 			const tb = (window.tb = new Threebox(
 				this.map,
 				this.map.getCanvas().getContext("webgl"), //get the context from the map canvas
-				{ defaultLights: true }
+				{ defaultLights: true },
 			));
 
 			const delay = authStore.isMobileDevice ? 2000 : 500;
@@ -292,7 +292,7 @@ export const useMapStore = defineStore("map", {
 							paintSettings["arc-color"][1]
 								? paintSettings["arc-color"][1]
 								: paintSettings["arc-color"][0],
-							arcInterval + 1
+							arcInterval + 1,
 						);
 						for (let line of lines) {
 							let lineOptions = {
@@ -323,7 +323,7 @@ export const useMapStore = defineStore("map", {
 				this.mapConfigs[map_config.layerId] = map_config;
 				this.currentVisibleLayers.push(map_config.layerId);
 				this.loadingLayers = this.loadingLayers.filter(
-					(el) => el !== map_config.layerId
+					(el) => el !== map_config.layerId,
 				);
 			}, delay);
 		},
@@ -336,7 +336,7 @@ export const useMapStore = defineStore("map", {
 			map_config.forEach((element) => {
 				let mapLayerId = `${element.index}-${element.type}`;
 				this.loadingLayers = this.loadingLayers.filter(
-					(el) => el !== mapLayerId
+					(el) => el !== mapLayerId,
 				);
 
 				if (this.map.getLayer(mapLayerId)) {
@@ -344,11 +344,11 @@ export const useMapStore = defineStore("map", {
 					this.map.setLayoutProperty(
 						mapLayerId,
 						"visibility",
-						"none"
+						"none",
 					);
 				}
 				this.currentVisibleLayers = this.currentVisibleLayers.filter(
-					(element) => element !== mapLayerId
+					(element) => element !== mapLayerId,
 				);
 			});
 			this.removePopup();
@@ -362,7 +362,7 @@ export const useMapStore = defineStore("map", {
 				event.point,
 				{
 					layers: this.currentVisibleLayers,
-				}
+				},
 			);
 			// Return if there is no info in the click
 			if (!clickFeatureDatas || clickFeatureDatas.length === 0) {
@@ -459,13 +459,15 @@ export const useMapStore = defineStore("map", {
 					...this.map.getSource(`${layer_id}-source`)._data,
 				};
 				toBeFiltered.features = toBeFiltered.features.filter(
-					(el) => el.properties[property] === key
+					(el) => el.properties[property] === key,
 				);
 				map_config.layerId = layer_id;
 				this.AddArcMapLayer(map_config, toBeFiltered);
 				return;
 			}
-			this.map.setFilter(layer_id, ["==", ["get", property], key]);
+			// this.map.setFilter(layer_id, ["==", ["get", property], key]);
+
+			this.map.setFilter(layer_id, ["in", key, ["get", property]]); //這裡有更改!!
 		},
 		// Remove any filters on a map layer
 		clearLayerFilter(layer_id, map_config) {

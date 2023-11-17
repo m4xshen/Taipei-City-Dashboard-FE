@@ -1949,11 +1949,79 @@
 						}
 					],
 					"paint": {
-						"circle-color": "#3f51b5"
+						"circle-color": [
+							"match",
+							["get", "c_type"],
+							"吃",
+							"#F65658",
+							"買",
+							"#F49F36",
+							"玩",
+							"#2F8AB1",
+							"#2F8AB1"
+						]
 					},
 					"type": "circle",
 					"size": "big",
 					"title": "商圈"
+				},
+				{
+					"color": "#fff",
+					"index": "traffic_metro_line",
+					"paint": {
+						"line-color": [
+							"match",
+							["get", "c_MRT"],
+							["BL"],
+							"#0070bd",
+							["O"],
+							"#f8b61c",
+							["G"],
+							"#008659",
+							["R"],
+							"#e3002c",
+							["BR"],
+							"#c48c31",
+							["Y"],
+							"#ffdb00",
+							"#505050"
+						]
+					},
+					"property": [
+						{
+							"key": "mrtsys",
+							"name": "系統"
+						},
+						{
+							"key": "mrtid",
+							"name": "代號"
+						},
+						{
+							"key": "mrtcode",
+							"name": "路線"
+						}
+					],
+					"type": "line",
+					"size": null,
+					"icon": null,
+					"title": "捷運路線"
+				},
+				{
+					"index": "traffic_metro_station_new",
+					"property": [
+						{
+							"key": "stationid",
+							"name": "ID"
+						},
+						{
+							"key": "stationname2",
+							"name": "站名"
+						}
+					],
+					"type": "symbol",
+					"size": null,
+					"icon": "metro",
+					"title": "捷運站"
 				}
 			],
 			"chart_config": {

@@ -59,8 +59,6 @@ function handleDataSelection(e, chartContext, config) {
 	if (selectedIndex.value !== null) {
 		isClick.value[selectedIndex.value] = false;
 	}
-	// isClick.value[config.dataPointIndex] =
-	// 	!isClick.value[config.dataPointIndex];
 
 	let fieldValue;
 	switch (config.dataPointIndex) {
