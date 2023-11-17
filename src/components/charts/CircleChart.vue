@@ -50,6 +50,7 @@ const numToMRT = {
 const maxNumber = Math.max(...chartData.map((item) => item.y));
 const selectedIndex = ref(null);
 const isClick = ref(Array(chartData.length).fill(false));
+const status = ref("MRT");
 
 function handleDataSelection(e, chartContext, config) {
 	if (!props.chart_config.map_filter) {
@@ -86,12 +87,14 @@ function handleDataSelection(e, chartContext, config) {
 			`${props.map_config[0].index}-${props.map_config[0].type}`, //圖層ID
 			"c_MRT", //欄位名稱
 			fieldValue, //欄位值
+			"MRT",
 		);
 		selectedIndex.value = config.dataPointIndex;
 	} else {
 		isClick.value[config.dataPointIndex] = false;
 		mapStore.clearLayerFilter(
 			`${props.map_config[0].index}-${props.map_config[0].type}`,
+			"MRT",
 		);
 		selectedIndex.value = null;
 	}

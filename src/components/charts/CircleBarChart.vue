@@ -33,14 +33,15 @@ function handleDataSelection(e, chartContext, config) {
 		mapStore.addLayerFilter(
 			`${props.map_config[0].index}-${props.map_config[0].type}`, //圖層ID
 			"c_name", //欄位名稱
-			props.chart_config.map_filter[1][config.dataPointIndex],
-			//欄位值
+			props.chart_config.map_filter[1][config.dataPointIndex], //欄位值
+			"district",
 		);
 		selectedIndex.value = config.dataPointIndex;
 	} else {
 		isClick.value[config.dataPointIndex] = false;
 		mapStore.clearLayerFilter(
 			`${props.map_config[0].index}-${props.map_config[0].type}`,
+			"district",
 		);
 		selectedIndex.value = null;
 	}
