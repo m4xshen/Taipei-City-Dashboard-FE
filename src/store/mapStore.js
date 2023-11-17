@@ -449,6 +449,7 @@ export const useMapStore = defineStore("map", {
 		/* Map Filtering */
 		// Add a filter based on a property on a map layer
 		addLayerFilter(layer_id, property, key, map_config) {
+			console.log(layer_id);
 			const dialogStore = useDialogStore();
 			if (!this.map || dialogStore.dialogs.moreInfo) {
 				return;
@@ -468,6 +469,16 @@ export const useMapStore = defineStore("map", {
 			// this.map.setFilter(layer_id, ["==", ["get", property], key]);
 
 			this.map.setFilter(layer_id, ["in", key, ["get", property]]); //這裡有更改!!
+			this.map.setFilter("traffic_metro_line-line", [
+				"==",
+				["get", property],
+				key,
+			]);
+			this.map.setFilter("traffic_metro_station_new-symbol", [
+				"==",
+				["get", property],
+				key,
+			]);
 		},
 		// Remove any filters on a map layer
 		clearLayerFilter(layer_id, map_config) {
@@ -485,6 +496,8 @@ export const useMapStore = defineStore("map", {
 				return;
 			}
 			this.map.setFilter(layer_id, null);
+			this.map.setFilter("traffic_metro_line-line", null);
+			this.map.setFilter("traffic_metro_station_new-symbol", null);
 		},
 
 		/* Clearing the map */
