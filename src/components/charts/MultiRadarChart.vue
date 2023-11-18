@@ -134,7 +134,7 @@ const dropdownOpen = ref(false);
 const toggleDropdown = () => {
 	setTimeout(() => {
 		dropdownOpen.value = !dropdownOpen.value;
-	}, 100);
+	}, 50);
 };
 
 const selectOption = (option) => {
@@ -219,7 +219,7 @@ onUnmounted(() => {
 .custom-select {
 	position: absolute;
 	display: inline-block;
-	z-index: 30;
+	z-index: 2;
 }
 
 .select-head {
@@ -237,7 +237,7 @@ onUnmounted(() => {
 	position: relative;
 	max-height: 200px;
 	overflow-y: auto;
-	z-index: 20;
+	z-index: 2;
 	top: 1px;
 	left: 0;
 	width: 100%;
@@ -273,10 +273,8 @@ onUnmounted(() => {
 	cursor: pointer;
 	transition: background-color 0.3s;
 }
-.select-head:hover::after {
-	color: #f39c12;
-}
+
 .option-item:hover {
-	background-color: #f39c12;
+	background-color: #5a9cf8;
 }
 </style>
