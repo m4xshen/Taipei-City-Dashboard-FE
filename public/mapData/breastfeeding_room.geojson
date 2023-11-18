@@ -1,0 +1,19 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"geometry": {
+				"coordinates": [121.50739, 25.041803],
+				"type": "Point"
+			},
+			"properties": {
+				"description": "飲水服務;尿布台;母乳專用冰箱;消毒器具;置物空間;嬰兒車停放空間;母乳哺育宣導資訊;設置意見回饋箱;進行滿意度調查",
+				"district": "松山區",
+				"c_name": "松山",
+				"c_MRT": ["G"],
+				"NAME": "臺北市松山區健康服務中心"
+			},
+			"type": "Feature"
+		}
+	]
+}
