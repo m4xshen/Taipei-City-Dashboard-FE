@@ -2017,7 +2017,8 @@
 							"玩",
 							"#2F8AB1",
 							"#2F8AB1"
-						]
+						],
+						"circle-opacity": 0.8
 					},
 					"type": "circle",
 					"size": "big",

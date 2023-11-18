@@ -491,9 +491,9 @@ export const useMapStore = defineStore("map", {
 						key,
 					]);
 					this.map.setFilter("breastfeeding_room-symbol", [
-						"==",
-						["get", property],
+						"in",
 						key,
+						["get", property],
 					]);
 				}
 				if (status !== "MRT") {
