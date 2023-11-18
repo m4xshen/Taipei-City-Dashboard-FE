@@ -3027,7 +3027,37 @@
 		"202": {
 			"id": 202,
 			"index": "subsidy",
-			"map_config": null,
+			"map_config": [
+				{
+					"source": "subsidy-source",
+					"index": "subsidy",
+					"property": [
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "services",
+							"name": "檢查項目"
+						}
+					],
+					"paint": {
+						"circle-color": [
+							"match",
+							["get", "service"],
+							"婚後孕前健康檢查",
+							"#fb8c8c",
+							"初期孕婦唐氏症篩檢",
+							"#a0b8e8",
+							"#b7ff98"
+						],
+						"circle-opacity": 0.7,
+						"circle-radius": 3
+					},
+					"type": "circle",
+					"title": "生育補助合約醫院"
+				}
+			],
 			"chart_config": {
 				"types": ["ColumnChart"],
 				"color": ["#fb8c8c", "#a0b8e8", "#b7ff98"],
@@ -3047,6 +3077,12 @@
 						"萬華區",
 						"大安區",
 						"文山區"
+					],
+					"service",
+					[
+						"婚後孕前健康檢查",
+						"初期孕婦唐氏症篩檢",
+						"中期孕婦唐氏症篩檢"
 					]
 				],
 				"categories": [
