@@ -81,17 +81,19 @@ export const useMapStore = defineStore("map", {
 		// 2. Adds three basic layers to the map (Taipei District, Taipei Village labels, and Taipei 3D Buildings)
 		// Due to performance concerns, Taipei 3D Buildings won't be added in the mobile version
 		initializeBasicLayers() {
+			
 			const authStore = useAuthStore();
 			fetch(`${BASE_URL}/mapData/taipei_town.geojson`)
 				.then((response) => response.json())
 				.then((data) => {
 					this.map
-						.addSource("taipei_town", {
+						.f("taipei_town", {
 							type: "geojson",
 							data: data,
 						})
 						.addLayer(TaipeiTown);
 				});
+			
 			fetch(`${BASE_URL}/mapData/taipei_village.geojson`)
 				.then((response) => response.json())
 				.then((data) => {
@@ -102,6 +104,7 @@ export const useMapStore = defineStore("map", {
 						})
 						.addLayer(TaipeiVillage);
 				});
+			
 			if (!authStore.isMobileDevice) {
 				this.map
 					.addSource("taipei_building_3d_source", {
@@ -110,7 +113,7 @@ export const useMapStore = defineStore("map", {
 					})
 					.addLayer(TaipeiBuilding);
 			}
-
+			
 			this.addSymbolSources();
 		},
 		// 3. Adds symbols that will be used by some map layers
@@ -124,7 +127,12 @@ export const useMapStore = defineStore("map", {
 				"bike_green",
 				"bike_orange",
 				"bike_red",
+				"托嬰中心",
+				"公辦民營托嬰中心",
+				"公立幼稚園",
+				"兒童醫療補助特約醫療院所"
 			];
+			
 			images.forEach((element) => {
 				this.map.loadImage(
 					`${BASE_URL}/images/map/${element}.png`,
@@ -133,7 +141,9 @@ export const useMapStore = defineStore("map", {
 						this.map.addImage(element, image);
 					},
 				);
+				
 			});
+			console.log("images", this.map);
 		},
 
 		/* Adding Map Layers */

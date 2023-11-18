@@ -4346,6 +4346,78 @@
 				"https://github.com/tpe-doit/YouBike-Optimization"
 			],
 			"contributors": ["tuic"]
+		},
+		"150": {
+			"id": 150,
+			"index": "child_care_institution",
+			"map_config": [
+				{
+					"index": "child_care_institution",
+					"paint": {
+					},
+					"property": [
+						{
+							"key": "type",
+							"name": "進度"
+						},
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "address",
+							"name": "地址"
+						},
+						{
+							"key": "rank",
+							"name": "評鑑等級"
+						}
+					],
+					"icon" : "child_care_institution",
+					"type": "symbol",
+					"title": "托育機構"
+				}
+			],
+			"chart_config": {
+				"color": [
+					"#fbb03b",
+					"#223b53",
+					"#e55e5e",
+					"#3bb2d0",
+					"#ccc",
+					"#ccc",
+					"#ccc"
+				],
+				"types": ["DonutChart", "BarChart", "HeatmapChart", "RadarChart"],
+				"unit": "所",
+				"map_filter": [
+					"type",
+					[
+						"托嬰中心",
+						"公立幼稚園",
+						"私立幼稚園",
+						"產後護理機構",
+						"育兒友善園",
+						"公辦民營托嬰中心",
+						"兒童醫療補助特約醫療院所"
+					]
+				]
+			},
+			"name": "托育機構",
+			"source": "都發局",
+			"time_from": "2023-06-02T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": 1,
+			"update_freq_unit": "day",
+			"short_desc": "顯示托育機構點位",
+			"long_desc": "顯示目前托育機構點位，資料來源為台北市都發局公開資料，每日更新。",
+			"use_case": "了解台北市托育機構的興建進度及其具體位置，以及如何與社會福利機構的設置相關聯，並考慮人口需求的分布，從而制定更適合提供社會福利服務的社會住宅計畫。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=659c3565-df41-4f80-915f-95e83071bdcd"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
 		}
+		
 	}
 }
