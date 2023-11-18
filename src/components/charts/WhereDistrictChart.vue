@@ -65,14 +65,39 @@ const breastfeedingRoomData = computed(() => {
 	let output = {};
 	let highest = 0;
 	let sum = 0;
-
-	props.series[2].data.forEach((item) => {
-		output[item.x] = item.y;
-		if (item.y > highest) {
-			highest = item.y;
-		}
-		sum += item.y;
-	});
+	if (props.series.length === 1) {
+		props.series[0].data.forEach((item) => {
+			output[item.x] = item.y;
+			if (item.y > highest) {
+				highest = item.y;
+			}
+			sum += item.y;
+		});
+	} else if (props.series[0].data.length === 12) {
+		props.series[0].data.forEach((item) => {
+			output[item.x] = item.y;
+			if (item.y > highest) {
+				highest = item.y;
+			}
+			sum += item.y;
+		});
+	} else {
+		props.series.forEach((serie) => {
+			for (let i = 0; i < 12; i++) {
+				if (!output[props.chart_config.categories[i]]) {
+					output[props.chart_config.categories[i]] = 0;
+				}
+				output[props.chart_config.categories[i]] += +serie.data[i];
+			}
+		});
+		highest = Object.values(output).sort(function (a, b) {
+			return b - a;
+		})[0];
+		sum = Object.values(output).reduce(
+			(partialSum, a) => partialSum + a,
+			0,
+		);
+	}
 
 	output.highest = highest;
 	output.sum = sum;
