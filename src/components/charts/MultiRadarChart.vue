@@ -147,5 +147,12 @@ const selectedDistrictSeries = computed(() => {
   border-radius: 5px;
   border: 1px solid #ccc;
   background-color: #888787;
+  
+}
+.multiRadarChart-select:focus {
+  outline: none;
+}
+.multiRadarChart-select option {
+  background-color: #888787;
 }
 </style>
