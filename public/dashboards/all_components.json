@@ -4509,11 +4509,11 @@
 					"property": [
 						{
 							"key": "type",
-							"name": "進度"
+							"name": "類別"
 						},
 						{
 							"key": "name",
-							"name": "名稱"
+							"name": "機構名稱"
 						},
 						{
 							"key": "address",
@@ -4566,17 +4566,15 @@
 				]
 			},
 			"name": "孕後顧兒童",
-			"source": "都發局",
+			"source": "台北市資料大平台",
 			"time_from": "2023-06-02T00:00:00+08:00",
 			"time_to": null,
 			"update_freq": 1,
 			"update_freq_unit": "day",
 			"short_desc": "顯示托育機構點位",
-			"long_desc": "顯示目前托育機構點位，資料來源為台北市都發局公開資料，每日更新。",
-			"use_case": "了解台北市托育機構的興建進度及其具體位置，以及如何與社會福利機構的設置相關聯，並考慮人口需求的分布，從而制定更適合提供社會福利服務的社會住宅計畫。",
-			"links": [
-				"https://data.taipei/dataset/detail?id=659c3565-df41-4f80-915f-95e83071bdcd"
-			],
+			"long_desc": "顯示目前托育機構點位，資料來源為台北市資料大平台。",
+			"use_case": "了解台北市托育機構的密集度及其具體位置，以及比較各區間的托育機構完整性。",
+			"links": "",
 			"tags": [],
 			"contributors": ["tuic"]
 		}

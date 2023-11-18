@@ -494,7 +494,6 @@ export const useMapStore = defineStore("map", {
 		// Add a filter based on a property on a map layer
 		addLayerFilter(layer_id, property, key, status, map_config) {
 			const dialogStore = useDialogStore();
-			console.log(property, key);
 			if (!this.map || dialogStore.dialogs.moreInfo) {
 				return;
 			}
