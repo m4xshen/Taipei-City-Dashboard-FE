@@ -27,11 +27,11 @@ onMounted(() => {
 });
 const chartData = props.series[1].data;
 const circlePositions = {
-	R: { x: 30, y: 30 },
-	G: { x: 150, y: 30 },
-	BL: { x: 10, y: 145 },
+	R: { x: 20, y: 60 },
+	G: { x: 150, y: 50 },
+	BL: { x: 10, y: 165 },
 	BR: { x: 110, y: 140 },
-	O: { x: 220, y: 110 },
+	O: { x: 220, y: 120 },
 	Y: { x: 190, y: 190 },
 };
 const numToColor = {
@@ -109,6 +109,7 @@ function handleDataSelection(e, chartContext, config) {
 
 <template>
 	<div v-if="activeChart === 'CircleChart'" class="circlechart">
+		<div class="unit">商圈數量 單位：個</div>
 		<transition-group name="fade" tag="div">
 			<div
 				v-for="(item, index) in chartData"
@@ -119,8 +120,8 @@ function handleDataSelection(e, chartContext, config) {
 				:style="{
 					position: 'absolute',
 					backgroundColor: numToColor[item.x] || '#000',
-					width: `${(item.y / maxNumber) * 50 + 65}px`,
-					height: `${(item.y / maxNumber) * 50 + 65}px`,
+					width: `${(item.y / maxNumber) * 40 + 65}px`,
+					height: `${(item.y / maxNumber) * 40 + 65}px`,
 					animation: `fadeIn ${index * 0.2}s ease-in-out forwards`,
 					top: `${circlePositions[item.x].y}px`,
 					left: `${circlePositions[item.x].x}px`,
@@ -147,7 +148,6 @@ function handleDataSelection(e, chartContext, config) {
 						}"
 					>
 						{{ item.y }}
-						<div :style="{ fontSize: '8px' }">個</div>
 					</div>
 				</div>
 			</div>
@@ -158,6 +158,12 @@ function handleDataSelection(e, chartContext, config) {
 <style scoped lang="scss">
 .circlechart {
 	width: 100%;
+	margin-top: 9%;
+	max-height: 100%;
+}
+.unit {
+	font-size: 12px;
+	color: #bababa;
 }
 .circle {
 	border-radius: 50%;

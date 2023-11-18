@@ -49,17 +49,7 @@ function handleDataSelection(e, chartContext, config) {
 </script>
 
 <template>
-	<div
-		v-if="activeChart === 'CircleBarChart'"
-		class="CircleBarChart"
-		:style="{
-			alignItems: center,
-			display: flex,
-			flexDirection: column,
-			justifyContent: center,
-			marginTop: '20px',
-		}"
-	>
+	<div v-if="activeChart === 'CircleBarChart'" class="CircleBarChart">
 		<div
 			v-for="(item, index) in chartData"
 			:key="index"
@@ -126,10 +116,14 @@ function handleDataSelection(e, chartContext, config) {
 <style scoped lang="scss">
 .CircleBarChart {
 	align-self: center;
-	width: 80%;
+	width: 70%;
 	gap: 10px;
+	max-height: 100%;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 10% 15%;
 }
 .font {
 	color: white;

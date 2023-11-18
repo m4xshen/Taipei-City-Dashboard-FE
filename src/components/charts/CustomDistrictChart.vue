@@ -410,6 +410,7 @@ function handleDataSelection(index) {
 	max-height: 100%;
 	position: relative;
 	overflow-y: scroll;
+	margin-top: 10%;
 
 	&-title {
 		display: flex;

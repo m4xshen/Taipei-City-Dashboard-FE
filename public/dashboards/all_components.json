@@ -2110,7 +2110,8 @@
 				"types": [
 					"CircleChart",
 					"CircleBarChart",
-					"CustomDistrictChart"
+					"CustomDistrictChart",
+					"TextChart"
 				],
 				"unit": "個",
 				"categories": [
@@ -4504,8 +4505,7 @@
 			"map_config": [
 				{
 					"index": "child_care_institution",
-					"paint": {
-					},
+					"paint": {},
 					"property": [
 						{
 							"key": "type",
@@ -4524,7 +4524,7 @@
 							"name": "評鑑等級"
 						}
 					],
-					"icon" : "child_care_institution",
+					"icon": "child_care_institution",
 					"type": "symbol",
 					"title": "托育機構"
 				}
@@ -4549,7 +4549,7 @@
 						"兒童醫療補助特約醫療院所"
 					]
 				],
-				"categories":[
+				"categories": [
 					"托嬰中心",
 					"育兒友善園",
 					"公辦民營托嬰中心",
@@ -4571,6 +4571,5 @@
 			"tags": [],
 			"contributors": ["tuic"]
 		}
-		
 	}
 }
