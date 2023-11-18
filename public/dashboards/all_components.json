@@ -2808,7 +2808,10 @@
 			"index": "care",
 			"map_config": [
 				{
+					"source": "care-source",
+					"layer_id": "care1",
 					"index": "care",
+					"filter": ["!", ["has", "point_count"]],
 					"paint": {
 						"circle-color": "#a0b8e8",
 						"circle-opacity": 0.7,
@@ -2830,10 +2833,13 @@
 					],
 					"type": "circle",
 					"title": "產後護理機構",
-					"cluster": false
+					"cluster": true
 				},
 				{
+					"source": "care-source",
+					"layer_id": "care2",
 					"index": "care",
+					"filter": ["has", "point_count"],
 					"paint": {
 						"circle-color": "#a0b8e8",
 						"circle-opacity": 0.7,
@@ -2844,11 +2850,21 @@
 							5,
 							30,
 							10,
-							40
+							40,
+							15,
+							50
 						]
 					},
 					"type": "circle",
-					"cluster": true
+					"cluster": false
+				},
+				{
+					"source": "care-source",
+					"layer_id": "care3",
+					"index": "care",
+					"filter": ["has", "point_count"],
+					"type": "symbol",
+					"cluster": false
 				}
 			],
 			"name": "產後護理機構",
@@ -2880,7 +2896,10 @@
 			"index": "counsel",
 			"map_config": [
 				{
+					"source": "counsel-source",
+					"layer_id": "counsel1",
 					"index": "counsel",
+					"filter": ["!", ["has", "point_count"]],
 					"paint": {
 						"circle-color": "#b7ff98",
 						"circle-opacity": 0.7,
@@ -2902,10 +2921,13 @@
 					],
 					"type": "circle",
 					"title": "心理諮商機構",
-					"cluster": false
+					"cluster": true
 				},
 				{
+					"source": "counsel-source",
+					"layer_id": "counsel2",
 					"index": "counsel",
+					"filter": ["has", "point_count"],
 					"paint": {
 						"circle-color": "#b7ff98",
 						"circle-opacity": 0.7,
@@ -2916,11 +2938,21 @@
 							5,
 							30,
 							10,
-							40
+							40,
+							15,
+							50
 						]
 					},
 					"type": "circle",
-					"cluster": true
+					"cluster": false
+				},
+				{
+					"source": "counsel-source",
+					"layer_id": "counsel3",
+					"index": "counsel",
+					"filter": ["has", "point_count"],
+					"type": "symbol",
+					"cluster": false
 				}
 			],
 			"name": "心理諮商機構",
