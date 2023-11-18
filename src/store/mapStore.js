@@ -273,6 +273,7 @@ export const useMapStore = defineStore("map", {
 			this.loadingLayers = this.loadingLayers.filter(
 				(el) => el !== map_config.layerId,
 			);
+			
 		},
 		// 4-2. Add Map Layer for Arc Maps
 		AddArcMapLayer(map_config, data) {
@@ -493,6 +494,7 @@ export const useMapStore = defineStore("map", {
 		// Add a filter based on a property on a map layer
 		addLayerFilter(layer_id, property, key, status, map_config) {
 			const dialogStore = useDialogStore();
+			console.log(property, key);
 			if (!this.map || dialogStore.dialogs.moreInfo) {
 				return;
 			}
@@ -512,6 +514,7 @@ export const useMapStore = defineStore("map", {
 			if (layer_id !== "shopping_area-circle") {
 				this.map.setFilter(layer_id, ["==", ["get", property], key]);
 			}
+
 
 			if (layer_id === "shopping_area-circle") {
 				this.map.setFilter(layer_id, ["in", key, ["get", property]]);

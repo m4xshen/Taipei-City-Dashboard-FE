@@ -1,8 +1,11 @@
 <!-- 在 <script setup> 中加入 computed 並修改 selectedDistrictSeries -->
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from "vue";
+import { useMapStore } from "../../store/mapStore";
 
 const props = defineProps(["chart_config", "activeChart", "series"]);
+
+const mapStore = useMapStore();
 
 const chartOptions = ref({
 	chart: {
@@ -101,6 +104,13 @@ const selectedDistrictSeries = computed(() => {
 	const selectedDistrictSeries = props.series.filter((element) => {
 		return element.name === selectedDistrict.value;
 	});
+	console.log(selectedDistrictSeries[0].name);
+	mapStore.clearLayerFilter(`child_care_institution-symbol`);
+	mapStore.addLayerFilter(
+		`child_care_institution-symbol`,
+		"district",
+		selectedDistrictSeries[0].name,
+	);
 
 	const ArrayOfSeries = props.series.map((element) => {
 		return element.data;
