@@ -8,9 +8,9 @@
 		},
 		{
 			"name": "祝您好孕",
-			"index": "travel",
+			"index": "good_pregnant",
 			"components": ["75"],
-			"icon": "pedal_bike"
+			"icon": "woman"
 		},
 		{
 			"name": "民情熱議",
