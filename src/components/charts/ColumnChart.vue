@@ -61,18 +61,36 @@ const chartOptions = ref({
 });
 
 const selectedIndex = ref(null);
+const selectedSeries = ref(null);
 
 function handleDataSelection(e, chartContext, config) {
 	if (!props.chart_config.map_filter) {
 		return;
 	}
-	const toFilter = config.dataPointIndex;
-	if (toFilter !== selectedIndex.value) {
-		mapStore.addLayerFilter(`${props.map_config[0].index}-${props.map_config[0].type}`, props.chart_config.map_filter[0], props.chart_config.map_filter[1][toFilter]);
-		selectedIndex.value = toFilter;
+
+	const {seriesIndex} = config;
+	const {dataPointIndex} = config;
+
+	const layer_id = "subsidy-circle";
+	const property = "dist";
+	const property2 = "service";
+	const key = props.chart_config.map_filter[1][dataPointIndex];
+	const key2 = props.chart_config.map_filter[3][seriesIndex];
+
+	if (dataPointIndex !== selectedIndex.value || seriesIndex !== selectedSeries.value) {
+		mapStore.addLayerFilter(layer_id, null, null, null, props.map_config,
+			[
+				"all",
+				["==", ["get", property], key],
+				["==", ["get", property2], key2]
+			]
+		);
+		selectedIndex.value = dataPointIndex;
+		selectedSeries.value = seriesIndex;
 	} else {
-		mapStore.clearLayerFilter(`${props.map_config[0].index}-${props.map_config[0].type}`);
+		mapStore.clearLayerFilter(layer_id, status, props.map_config);
 		selectedIndex.value = null;
+		selectedSeries.value = null;
 	}
 }
 </script>

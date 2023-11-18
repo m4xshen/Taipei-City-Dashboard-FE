@@ -3025,6 +3025,84 @@
 				]
 			}
 		},
+		"202": {
+			"id": 202,
+			"index": "subsidy",
+			"map_config": [
+				{
+					"source": "subsidy-source",
+					"index": "subsidy",
+					"property": [
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "services",
+							"name": "檢查項目"
+						}
+					],
+					"paint": {
+						"circle-color": [
+							"match",
+							["get", "service"],
+							"婚後孕前健康檢查",
+							"#fb8c8c",
+							"初期孕婦唐氏症篩檢",
+							"#a0b8e8",
+							"#b7ff98"
+						],
+						"circle-opacity": 0.7,
+						"circle-radius": 3
+					},
+					"type": "circle",
+					"title": "生育補助合約醫院"
+				}
+			],
+			"chart_config": {
+				"types": ["ColumnChart"],
+				"color": ["#fb8c8c", "#a0b8e8", "#b7ff98"],
+				"unit": "家",
+				"map_filter": [
+					"dist",
+					[
+						"北投區",
+						"士林區",
+						"內湖區",
+						"南港區",
+						"松山區",
+						"信義區",
+						"中山區",
+						"大同區",
+						"中正區",
+						"萬華區",
+						"大安區",
+						"文山區"
+					],
+					"service",
+					[
+						"婚後孕前健康檢查",
+						"初期孕婦唐氏症篩檢",
+						"中期孕婦唐氏症篩檢"
+					]
+				],
+				"categories": [
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
+				]
+			},
+			"name": "生育補助合約醫院"
+		},
 		"107": {
 			"id": 107,
 			"index": "aed",

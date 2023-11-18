@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52813997041756, 25.09274997985584]
+      },
+      "properties": {
+        "name": "三軍總醫院松山分院附設民眾診療服務處",
+        "dist": "松山區",
+        "service": "婚後孕前健康檢查",
+        "services": ["婚後孕前健康檢查","初期孕婦唐氏症篩檢"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52823996041756, 25.09274997985584]
+      },
+      "properties": {
+        "name": "三軍總醫院松山分院附設民眾診療服務處",
+        "dist": "松山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": ["婚後孕前健康檢查","初期孕婦唐氏症篩檢"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.62823996041756, 25.09274997985584]
+      },
+      "properties": {
+        "name": "美人魚時尚婦產科診所",
+        "dist": "松山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": ["中期孕婦唐氏症篩檢"]
+      }
+    }
+  ]
+}

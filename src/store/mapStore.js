@@ -492,7 +492,7 @@ export const useMapStore = defineStore("map", {
 
 		/* Map Filtering */
 		// Add a filter based on a property on a map layer
-		addLayerFilter(layer_id, property, key, status, map_config) {
+		addLayerFilter(layer_id, property, key, status, map_config, f=null) {
 			const dialogStore = useDialogStore();
 			if (!this.map || dialogStore.dialogs.moreInfo) {
 				return;
@@ -510,7 +510,9 @@ export const useMapStore = defineStore("map", {
 				return;
 			}
 
-			if (layer_id !== "shopping_area-circle") {
+			if (f) {
+				this.map.setFilter(layer_id, f);
+			} else if (layer_id !== "shopping_area-circle") {
 				this.map.setFilter(layer_id, ["==", ["get", property], key]);
 			}
 

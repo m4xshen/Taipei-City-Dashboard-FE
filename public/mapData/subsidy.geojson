@@ -1,0 +1,3423 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57719000000006,
+          25.05003000000005
+        ]
+      },
+      "properties": {
+        "name": "三軍總醫院松山分院附設民眾診療服務處",
+        "dist": "松山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57729000000006,
+          25.05003000000005
+        ]
+      },
+      "properties": {
+        "name": "三軍總醫院松山分院附設民眾診療服務處",
+        "dist": "松山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57739000000007,
+          25.05003000000005
+        ]
+      },
+      "properties": {
+        "name": "三軍總醫院松山分院附設民眾診療服務處",
+        "dist": "松山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54719000000007,
+          25.05198000000007
+        ]
+      },
+      "properties": {
+        "name": "美人魚時尚婦產科診所",
+        "dist": "松山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54739000000008,
+          25.05198000000007
+        ]
+      },
+      "properties": {
+        "name": "美人魚時尚婦產科診所",
+        "dist": "松山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56505000000001,
+          25.049040000000048
+        ]
+      },
+      "properties": {
+        "name": "高國隆婦產科診所",
+        "dist": "松山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56515000000002,
+          25.049040000000048
+        ]
+      },
+      "properties": {
+        "name": "高國隆婦產科診所",
+        "dist": "松山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56525000000002,
+          25.049040000000048
+        ]
+      },
+      "properties": {
+        "name": "高國隆婦產科診所",
+        "dist": "松山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55759000000009,
+          25.04990000000004
+        ]
+      },
+      "properties": {
+        "name": "博仁綜合醫院",
+        "dist": "松山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5576900000001,
+          25.04990000000004
+        ]
+      },
+      "properties": {
+        "name": "博仁綜合醫院",
+        "dist": "松山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5577900000001,
+          25.04990000000004
+        ]
+      },
+      "properties": {
+        "name": "博仁綜合醫院",
+        "dist": "松山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57719000000006,
+          25.05003000000005
+        ]
+      },
+      "properties": {
+        "name": "長庚醫療財團法人臺北長庚紀念醫院",
+        "dist": "松山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57729000000006,
+          25.05003000000005
+        ]
+      },
+      "properties": {
+        "name": "長庚醫療財團法人臺北長庚紀念醫院",
+        "dist": "松山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57739000000007,
+          25.05003000000005
+        ]
+      },
+      "properties": {
+        "name": "長庚醫療財團法人臺北長庚紀念醫院",
+        "dist": "松山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57729000000006,
+          25.05003000000005
+        ]
+      },
+      "properties": {
+        "name": "基督復臨安息日會醫療財團法人臺安醫院",
+        "dist": "松山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57739000000007,
+          25.05003000000005
+        ]
+      },
+      "properties": {
+        "name": "基督復臨安息日會醫療財團法人臺安醫院",
+        "dist": "松山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56354000000007,
+          25.02663000000007
+        ]
+      },
+      "properties": {
+        "name": "臺北醫學大學附設醫院",
+        "dist": "信義區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56364000000008,
+          25.02663000000007
+        ]
+      },
+      "properties": {
+        "name": "臺北醫學大學附設醫院",
+        "dist": "信義區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56374000000008,
+          25.02663000000007
+        ]
+      },
+      "properties": {
+        "name": "臺北醫學大學附設醫院",
+        "dist": "信義區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57490000000004,
+          25.04535000000004
+        ]
+      },
+      "properties": {
+        "name": "王知行婦產科診所",
+        "dist": "信義區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57510000000005,
+          25.04535000000004
+        ]
+      },
+      "properties": {
+        "name": "王知行婦產科診所",
+        "dist": "信義區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57678000000007,
+          25.03844000000004
+        ]
+      },
+      "properties": {
+        "name": "信義邱婦產科診所",
+        "dist": "信義區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57698000000008,
+          25.03844000000004
+        ]
+      },
+      "properties": {
+        "name": "信義邱婦產科診所",
+        "dist": "信義區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56350000000006,
+          25.04206000000005
+        ]
+      },
+      "properties": {
+        "name": "聯合報系員工診療所",
+        "dist": "信義區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5455200000001,
+          25.037660000000077
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院仁愛院區",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5456200000001,
+          25.037660000000077
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院仁愛院區",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5457200000001,
+          25.037660000000077
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院仁愛院區",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54327000000009,
+          25.03290000000004
+        ]
+      },
+      "properties": {
+        "name": "窈窕診所",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55535000000006,
+          25.038270000000068
+        ]
+      },
+      "properties": {
+        "name": "劉賢平婦產科診所",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55545000000006,
+          25.038270000000068
+        ]
+      },
+      "properties": {
+        "name": "劉賢平婦產科診所",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55555000000007,
+          25.038270000000068
+        ]
+      },
+      "properties": {
+        "name": "劉賢平婦產科診所",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54532999999999,
+          25.03353000000004
+        ]
+      },
+      "properties": {
+        "name": "吳坤光婦產科診所",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54543,
+          25.03353000000004
+        ]
+      },
+      "properties": {
+        "name": "吳坤光婦產科診所",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54553,
+          25.03353000000004
+        ]
+      },
+      "properties": {
+        "name": "吳坤光婦產科診所",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52308000000002,
+          25.026830000000075
+        ]
+      },
+      "properties": {
+        "name": "莊國豐婦產科診所",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52318000000002,
+          25.026830000000075
+        ]
+      },
+      "properties": {
+        "name": "莊國豐婦產科診所",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52328000000003,
+          25.026830000000075
+        ]
+      },
+      "properties": {
+        "name": "莊國豐婦產科診所",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55636000000001,
+          25.040650000000028
+        ]
+      },
+      "properties": {
+        "name": "康婕婦產科診所",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55646000000002,
+          25.040650000000028
+        ]
+      },
+      "properties": {
+        "name": "康婕婦產科診所",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55656000000002,
+          25.040650000000028
+        ]
+      },
+      "properties": {
+        "name": "康婕婦產科診所",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52772000000002,
+          25.033000000000072
+        ]
+      },
+      "properties": {
+        "name": "李婦產科診所",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52782000000002,
+          25.033000000000072
+        ]
+      },
+      "properties": {
+        "name": "李婦產科診所",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53169000000011,
+          25.02653000000004
+        ]
+      },
+      "properties": {
+        "name": "許世賓婦產科診所",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53189000000012,
+          25.02653000000004
+        ]
+      },
+      "properties": {
+        "name": "許世賓婦產科診所",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55124000000009,
+          25.041260000000023
+        ]
+      },
+      "properties": {
+        "name": "忠孝世賓婦產科診所",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5513400000001,
+          25.041260000000023
+        ]
+      },
+      "properties": {
+        "name": "忠孝世賓婦產科診所",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5514400000001,
+          25.041260000000023
+        ]
+      },
+      "properties": {
+        "name": "忠孝世賓婦產科診所",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55122000000004,
+          25.024280000000036
+        ]
+      },
+      "properties": {
+        "name": "林正宗婦產科診所",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55132000000005,
+          25.024280000000036
+        ]
+      },
+      "properties": {
+        "name": "林正宗婦產科診所",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55142000000005,
+          25.024280000000036
+        ]
+      },
+      "properties": {
+        "name": "林正宗婦產科診所",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55054000000004,
+          25.04159000000004
+        ]
+      },
+      "properties": {
+        "name": "金郁婦產科診所",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55064000000004,
+          25.04159000000004
+        ]
+      },
+      "properties": {
+        "name": "金郁婦產科診所",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55074000000005,
+          25.04159000000004
+        ]
+      },
+      "properties": {
+        "name": "金郁婦產科診所",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55356000000003,
+          25.036940000000072
+        ]
+      },
+      "properties": {
+        "name": "國泰醫療財團法人國泰綜合醫院",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55366000000004,
+          25.036940000000072
+        ]
+      },
+      "properties": {
+        "name": "國泰醫療財團法人國泰綜合醫院",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55376000000004,
+          25.036940000000072
+        ]
+      },
+      "properties": {
+        "name": "國泰醫療財團法人國泰綜合醫院",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54961000000011,
+          25.036550000000037
+        ]
+      },
+      "properties": {
+        "name": "中山醫療社團法人中山醫院",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54971000000012,
+          25.036550000000037
+        ]
+      },
+      "properties": {
+        "name": "中山醫療社團法人中山醫院",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54981000000012,
+          25.036550000000037
+        ]
+      },
+      "properties": {
+        "name": "中山醫療社團法人中山醫院",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54693000000006,
+          25.038490000000024
+        ]
+      },
+      "properties": {
+        "name": "宏恩醫療財團法人宏恩綜合醫院",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54713000000007,
+          25.038490000000024
+        ]
+      },
+      "properties": {
+        "name": "宏恩醫療財團法人宏恩綜合醫院",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53070000000002,
+          25.018580000000043
+        ]
+      },
+      "properties": {
+        "name": "滿意婦產科診所",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53080000000003,
+          25.018580000000043
+        ]
+      },
+      "properties": {
+        "name": "滿意婦產科診所",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55239000000003,
+          25.04123000000004
+        ]
+      },
+      "properties": {
+        "name": "林慧雯婦產科診所",
+        "dist": "大安區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55249000000003,
+          25.04123000000004
+        ]
+      },
+      "properties": {
+        "name": "林慧雯婦產科診所",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55259000000004,
+          25.04123000000004
+        ]
+      },
+      "properties": {
+        "name": "林慧雯婦產科診所",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5346300000001,
+          25.025770000000023
+        ]
+      },
+      "properties": {
+        "name": "禾馨新生婦幼診所",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55580000000008,
+          25.041580000000067
+        ]
+      },
+      "properties": {
+        "name": "謝婦產科診所",
+        "dist": "大安區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55590000000008,
+          25.041580000000067
+        ]
+      },
+      "properties": {
+        "name": "謝婦產科診所",
+        "dist": "大安區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53331000000004,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "台兒診所",
+        "dist": "中山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53331000000004,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "林丹薇診所",
+        "dist": "中山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53331000000004,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "周昱青診所",
+        "dist": "中山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53331000000004,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "吳佩臻診所",
+        "dist": "中山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53321000000004,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "木生婦幼診所",
+        "dist": "中山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53331000000004,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "木生婦幼診所",
+        "dist": "中山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53341000000005,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "木生婦幼診所",
+        "dist": "中山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53616000000008,
+          25.048500000000047
+        ]
+      },
+      "properties": {
+        "name": "黃大倫婦產科診所",
+        "dist": "中山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53321000000004,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "台灣基督長老教會馬偕醫療財團法人馬偕紀念醫院",
+        "dist": "中山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53331000000004,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "台灣基督長老教會馬偕醫療財團法人馬偕紀念醫院",
+        "dist": "中山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53341000000005,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "台灣基督長老教會馬偕醫療財團法人馬偕紀念醫院",
+        "dist": "中山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52217000000003,
+          25.063310000000055
+        ]
+      },
+      "properties": {
+        "name": "王三郎婦產科診所",
+        "dist": "中山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52227000000003,
+          25.063310000000055
+        ]
+      },
+      "properties": {
+        "name": "王三郎婦產科診所",
+        "dist": "中山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52237000000004,
+          25.063310000000055
+        ]
+      },
+      "properties": {
+        "name": "王三郎婦產科診所",
+        "dist": "中山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53384000000004,
+          25.05027000000007
+        ]
+      },
+      "properties": {
+        "name": "協和婦女醫院",
+        "dist": "中山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53404000000005,
+          25.05027000000007
+        ]
+      },
+      "properties": {
+        "name": "協和婦女醫院",
+        "dist": "中山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52537000000004,
+          25.06088000000005
+        ]
+      },
+      "properties": {
+        "name": "四季和安婦幼診所",
+        "dist": "中山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52547000000004,
+          25.06088000000005
+        ]
+      },
+      "properties": {
+        "name": "四季和安婦幼診所",
+        "dist": "中山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52557000000004,
+          25.06088000000005
+        ]
+      },
+      "properties": {
+        "name": "四季和安婦幼診所",
+        "dist": "中山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53321000000004,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "李義男婦產科診所【新增】",
+        "dist": "中山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53331000000004,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "李義男婦產科診所【新增】",
+        "dist": "中山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53341000000005,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "李義男婦產科診所【新增】",
+        "dist": "中山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53321000000004,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "繼承婦產科診所【新增】",
+        "dist": "中山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53331000000004,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "繼承婦產科診所【新增】",
+        "dist": "中山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53341000000005,
+          25.064430000000076
+        ]
+      },
+      "properties": {
+        "name": "繼承婦產科診所【新增】",
+        "dist": "中山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51915000000005,
+          25.029100000000028
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院婦幼院區",
+        "dist": "中正區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51925000000006,
+          25.029100000000028
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院婦幼院區",
+        "dist": "中正區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51935000000006,
+          25.029100000000028
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院婦幼院區",
+        "dist": "中正區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50660000000002,
+          25.03558000000004
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院和平院區",
+        "dist": "中正區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50670000000002,
+          25.03558000000004
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院和平院區",
+        "dist": "中正區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50680000000003,
+          25.03558000000004
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院和平院區",
+        "dist": "中正區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51399000000004,
+          25.043090000000063
+        ]
+      },
+      "properties": {
+        "name": "禾馨婦產科診所",
+        "dist": "中正區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51846000000009,
+          25.04078000000004
+        ]
+      },
+      "properties": {
+        "name": "國立臺灣大學醫學院附設醫院",
+        "dist": "中正區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5185600000001,
+          25.04078000000004
+        ]
+      },
+      "properties": {
+        "name": "國立臺灣大學醫學院附設醫院",
+        "dist": "中正區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5186600000001,
+          25.04078000000004
+        ]
+      },
+      "properties": {
+        "name": "國立臺灣大學醫學院附設醫院",
+        "dist": "中正區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5185600000001,
+          25.03247000000005
+        ]
+      },
+      "properties": {
+        "name": "小禾馨懷寧小兒專科診",
+        "dist": "中正區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50879000000006,
+          25.05069000000003
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院中興院區",
+        "dist": "大同區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50889000000006,
+          25.05069000000003
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院中興院區",
+        "dist": "大同區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50899000000007,
+          25.05069000000003
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院中興院區",
+        "dist": "大同區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49579000000004,
+          25.030490000000043
+        ]
+      },
+      "properties": {
+        "name": "大元婦產科診所",
+        "dist": "萬華區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4972500000001,
+          25.02416000000005
+        ]
+      },
+      "properties": {
+        "name": "聖約翰婦產科診所",
+        "dist": "萬華區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4973500000001,
+          25.02416000000005
+        ]
+      },
+      "properties": {
+        "name": "聖約翰婦產科診所",
+        "dist": "萬華區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4974500000001,
+          25.02416000000005
+        ]
+      },
+      "properties": {
+        "name": "聖約翰婦產科診所",
+        "dist": "萬華區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49843000000007,
+          25.02144000000004
+        ]
+      },
+      "properties": {
+        "name": "益生婦產科診所",
+        "dist": "萬華區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49853000000007,
+          25.02144000000004
+        ]
+      },
+      "properties": {
+        "name": "益生婦產科診所",
+        "dist": "萬華區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49863000000008,
+          25.02144000000004
+        ]
+      },
+      "properties": {
+        "name": "益生婦產科診所",
+        "dist": "萬華區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50345000000002,
+          25.04174000000006
+        ]
+      },
+      "properties": {
+        "name": "國立臺灣大學醫學院附設醫院北護分院",
+        "dist": "萬華區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50355000000002,
+          25.04174000000006
+        ]
+      },
+      "properties": {
+        "name": "國立臺灣大學醫學院附設醫院北護分院",
+        "dist": "萬華區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50365000000002,
+          25.04174000000006
+        ]
+      },
+      "properties": {
+        "name": "國立臺灣大學醫學院附設醫院北護分院",
+        "dist": "萬華區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5075600000001,
+          25.04199000000005
+        ]
+      },
+      "properties": {
+        "name": "城中瑪麗安婦產科診所",
+        "dist": "萬華區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55643000000008,
+          25.00022000000007
+        ]
+      },
+      "properties": {
+        "name": "愛文診所",
+        "dist": "文山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55653000000008,
+          25.00022000000007
+        ]
+      },
+      "properties": {
+        "name": "愛文診所",
+        "dist": "文山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55663000000008,
+          25.00022000000007
+        ]
+      },
+      "properties": {
+        "name": "愛文診所",
+        "dist": "文山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56113000000002,
+          24.98541000000006
+        ]
+      },
+      "properties": {
+        "name": "長欣婦產科診所",
+        "dist": "文山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56123000000002,
+          24.98541000000006
+        ]
+      },
+      "properties": {
+        "name": "長欣婦產科診所",
+        "dist": "文山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56133000000003,
+          24.98541000000006
+        ]
+      },
+      "properties": {
+        "name": "長欣婦產科診所",
+        "dist": "文山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56953000000007,
+          24.98974000000004
+        ]
+      },
+      "properties": {
+        "name": "臺北市立萬芳醫院－委託財團法人臺北醫學大學辦理",
+        "dist": "文山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56963000000007,
+          24.98974000000004
+        ]
+      },
+      "properties": {
+        "name": "臺北市立萬芳醫院－委託財團法人臺北醫學大學辦理",
+        "dist": "文山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.56973000000008,
+          24.98974000000004
+        ]
+      },
+      "properties": {
+        "name": "臺北市立萬芳醫院－委託財團法人臺北醫學大學辦理",
+        "dist": "文山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54783000000006,
+          24.999690000000044
+        ]
+      },
+      "properties": {
+        "name": "芳馨診所",
+        "dist": "文山區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54793000000006,
+          24.999690000000044
+        ]
+      },
+      "properties": {
+        "name": "芳馨診所",
+        "dist": "文山區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54803000000007,
+          24.999690000000044
+        ]
+      },
+      "properties": {
+        "name": "芳馨診所",
+        "dist": "文山區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58606000000006,
+          25.04650000000004
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院忠孝院區",
+        "dist": "南港區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58616000000006,
+          25.04650000000004
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院忠孝院區",
+        "dist": "南港區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58626000000007,
+          25.04650000000004
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院忠孝院區",
+        "dist": "南港區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60563000000012,
+          25.055810000000065
+        ]
+      },
+      "properties": {
+        "name": "劉聖亞診所",
+        "dist": "南港區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60573000000012,
+          25.055810000000065
+        ]
+      },
+      "properties": {
+        "name": "劉聖亞診所",
+        "dist": "南港區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60583000000013,
+          25.055810000000065
+        ]
+      },
+      "properties": {
+        "name": "劉聖亞診所",
+        "dist": "南港區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59139000000002,
+          25.081540000000075
+        ]
+      },
+      "properties": {
+        "name": "顏鳳麟婦產科診所",
+        "dist": "內湖區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59149000000002,
+          25.081540000000075
+        ]
+      },
+      "properties": {
+        "name": "顏鳳麟婦產科診所",
+        "dist": "內湖區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58837000000004,
+          25.069090000000077
+        ]
+      },
+      "properties": {
+        "name": "三軍總醫院附設民眾診療服務處",
+        "dist": "內湖區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58847000000004,
+          25.069090000000077
+        ]
+      },
+      "properties": {
+        "name": "三軍總醫院附設民眾診療服務處",
+        "dist": "內湖區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58857000000005,
+          25.069090000000077
+        ]
+      },
+      "properties": {
+        "name": "三軍總醫院附設民眾診療服務處",
+        "dist": "內湖區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58837000000004,
+          25.069090000000077
+        ]
+      },
+      "properties": {
+        "name": "康寧醫療財團法人康寧醫院",
+        "dist": "內湖區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58847000000004,
+          25.069090000000077
+        ]
+      },
+      "properties": {
+        "name": "康寧醫療財團法人康寧醫院",
+        "dist": "內湖區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58857000000005,
+          25.069090000000077
+        ]
+      },
+      "properties": {
+        "name": "康寧醫療財團法人康寧醫院",
+        "dist": "內湖區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58418000000003,
+          25.06901000000005
+        ]
+      },
+      "properties": {
+        "name": "國泰醫療財團法人內湖國泰診所",
+        "dist": "內湖區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59050000000012,
+          25.08212000000003
+        ]
+      },
+      "properties": {
+        "name": "中國醫藥大學附設醫院臺北分院",
+        "dist": "內湖區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59070000000013,
+          25.08212000000003
+        ]
+      },
+      "properties": {
+        "name": "中國醫藥大學附設醫院臺北分院",
+        "dist": "內湖區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58168,
+          25.06773000000004
+        ]
+      },
+      "properties": {
+        "name": "禾馨民權婦幼診所",
+        "dist": "內湖區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58847000000004,
+          25.069090000000077
+        ]
+      },
+      "properties": {
+        "name": "禾馨內湖婦幼診所",
+        "dist": "內湖區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "初期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5314700000001,
+          25.10519000000005
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院陽明院區",
+        "dist": "士林區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5316700000001,
+          25.10519000000005
+        ]
+      },
+      "properties": {
+        "name": "臺北市立聯合醫院陽明院區",
+        "dist": "士林區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52541000000004,
+          25.10946000000007
+        ]
+      },
+      "properties": {
+        "name": "鄭福山婦產科診所",
+        "dist": "士林區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52551000000004,
+          25.10946000000007
+        ]
+      },
+      "properties": {
+        "name": "鄭福山婦產科診所",
+        "dist": "士林區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52561000000004,
+          25.10946000000007
+        ]
+      },
+      "properties": {
+        "name": "鄭福山婦產科診所",
+        "dist": "士林區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52446000000006,
+          25.095590000000072
+        ]
+      },
+      "properties": {
+        "name": "李文達婦產科診所",
+        "dist": "士林區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52456000000006,
+          25.095590000000072
+        ]
+      },
+      "properties": {
+        "name": "李文達婦產科診所",
+        "dist": "士林區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52466000000007,
+          25.095590000000072
+        ]
+      },
+      "properties": {
+        "name": "李文達婦產科診所",
+        "dist": "士林區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52022000000008,
+          25.09628000000004
+        ]
+      },
+      "properties": {
+        "name": "新光醫療財團法人新光吳火獅紀念醫院",
+        "dist": "士林區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52032000000008,
+          25.09628000000004
+        ]
+      },
+      "properties": {
+        "name": "新光醫療財團法人新光吳火獅紀念醫院",
+        "dist": "士林區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52042000000009,
+          25.09628000000004
+        ]
+      },
+      "properties": {
+        "name": "新光醫療財團法人新光吳火獅紀念醫院",
+        "dist": "士林區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5270100000001,
+          25.10471000000007
+        ]
+      },
+      "properties": {
+        "name": "永恆美診所",
+        "dist": "士林區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5271100000001,
+          25.10471000000007
+        ]
+      },
+      "properties": {
+        "name": "永恆美診所",
+        "dist": "士林區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52721000000011,
+          25.10471000000007
+        ]
+      },
+      "properties": {
+        "name": "永恆美診所",
+        "dist": "士林區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52509000000008,
+          25.10758000000004
+        ]
+      },
+      "properties": {
+        "name": "佩佩婦幼診所",
+        "dist": "士林區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52519000000008,
+          25.10758000000004
+        ]
+      },
+      "properties": {
+        "name": "佩佩婦幼診所",
+        "dist": "士林區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52529000000008,
+          25.10758000000004
+        ]
+      },
+      "properties": {
+        "name": "佩佩婦幼診所",
+        "dist": "士林區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50110000000004,
+          25.13229000000007
+        ]
+      },
+      "properties": {
+        "name": "佳韻婦產科診所",
+        "dist": "北投區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50243000000007,
+          25.13289000000003
+        ]
+      },
+      "properties": {
+        "name": "臺北市立關渡醫院－委託臺北榮民總醫院經營",
+        "dist": "北投區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52230000000006,
+          25.11754000000008
+        ]
+      },
+      "properties": {
+        "name": "振興醫療財團法人振興醫院",
+        "dist": "北投區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52250000000006,
+          25.11754000000008
+        ]
+      },
+      "properties": {
+        "name": "振興醫療財團法人振興醫院",
+        "dist": "北投區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52131000000006,
+          25.119860000000077
+        ]
+      },
+      "properties": {
+        "name": "臺北榮民總醫院",
+        "dist": "北投區",
+        "service": "婚後孕前健康檢查",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52141000000006,
+          25.119860000000077
+        ]
+      },
+      "properties": {
+        "name": "臺北榮民總醫院",
+        "dist": "北投區",
+        "service": "初期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52151000000006,
+          25.119860000000077
+        ]
+      },
+      "properties": {
+        "name": "臺北榮民總醫院",
+        "dist": "北投區",
+        "service": "中期孕婦唐氏症篩檢",
+        "services": [
+          "婚後孕前健康檢查",
+          "初期孕婦唐氏症篩檢",
+          "中期孕婦唐氏症篩檢"
+        ]
+      }
+    }
+  ]
+}
