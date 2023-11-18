@@ -2811,6 +2811,7 @@
 					"index": "care",
 					"paint": {
 						"circle-color": "#a0b8e8",
+						"circle-opacity": 0.7,
 						"circle-radius": 3
 					},
 					"property": [
@@ -2882,6 +2883,7 @@
 					"index": "counsel",
 					"paint": {
 						"circle-color": "#b7ff98",
+						"circle-opacity": 0.7,
 						"circle-radius": 3
 					},
 					"property": [
