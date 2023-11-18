@@ -9,7 +9,7 @@
 		{
 			"name": "祝您好孕",
 			"index": "good_pregnant",
-			"components": ["75", "150", "200", "201", "300"],
+			"components": ["300", "75", "150", "200", "201"],
 			"icon": "woman"
 		},
 		{

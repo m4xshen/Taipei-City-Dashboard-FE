@@ -2913,7 +2913,7 @@
 					"cluster": false
 				}
 			],
-			"name": "產後護理機構",
+			"name": "孕後好護理",
 			"chart_config": {
 				"types": ["DistrictChart", "ColumnChart"],
 				"color": ["#a0b8e8"],
@@ -3001,7 +3001,7 @@
 					"cluster": false
 				}
 			],
-			"name": "心理諮商機構",
+			"name": "孕後心健康",
 			"chart_config": {
 				"types": ["DistrictChart", "ColumnChart"],
 				"color": ["#b7ff98"],
@@ -4556,7 +4556,7 @@
 					"兒童醫療補助特約醫療院所"
 				]
 			},
-			"name": "托育機構",
+			"name": "孕後顧兒童",
 			"source": "都發局",
 			"time_from": "2023-06-02T00:00:00+08:00",
 			"time_to": null,

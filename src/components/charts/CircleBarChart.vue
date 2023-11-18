@@ -168,7 +168,7 @@ function handleDataSelection(e, chartContext, config) {
 	border-radius: 50%;
 	width: 6px;
 	height: 6px;
-	background-color: #bcbcbc;
+	background-color: #f65658;
 	margin-right: 4px;
 	&.selected {
 		background-color: #333;
