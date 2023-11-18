@@ -1925,8 +1925,8 @@
 			"index": "lucky_where",
 			"chart_config": {
 				"color": ["#fb8c8c"],
-				"types": ["CustomDistrictChart"],
-				"unit": ["個", "‰"],
+				"types": ["WhereDistrictChart"],
+				"unit": ["‰", "個"],
 				"categories": [
 					"北投區",
 					"士林區",
@@ -1960,7 +1960,7 @@
 					]
 				]
 			},
-			"name": "好運在哪裡",
+			"name": "好孕在哪裡",
 			"history_data": true,
 			"source": "民政局",
 			"time_from": "2023-05-26T23:29:00+08:00",
@@ -2043,22 +2043,6 @@
 					"type": "symbol",
 					"icon": "breastfeeding",
 					"title": "哺乳室"
-				},
-				{
-					"index": "no_smoke_area",
-					"property": [
-						{
-							"key": "NAME",
-							"name": "禁菸地點"
-						},
-						{
-							"key": "district",
-							"name": "行政區"
-						}
-					],
-					"type": "symbol",
-					"icon": "no_smoke",
-					"title": "禁菸"
 				},
 
 				{

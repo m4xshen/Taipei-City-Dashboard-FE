@@ -122,7 +122,7 @@ function handleDataSelection(index) {
 		class="CustomDistrictChart"
 	>
 		<div class="CustomDistrictChart-title">
-			<h5>總合</h5>
+			<h5>全商圈數量</h5>
 			<h6>{{ districtData.sum }} {{ chart_config.unit }}</h6>
 			<div class="CustomDistrictChart-title-legend">
 				<p>多</p>
