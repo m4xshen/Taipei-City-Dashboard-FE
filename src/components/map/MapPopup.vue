@@ -1,8 +1,7 @@
 <!-- Developed by Taipei Urban Intelligence Center 2023 -->
 
 <!-- This component is mounted programmically by the mapstore. "mapConfig" and "popupContent" are passed in in the mapStore -->
-<script setup>
-</script>
+<script setup></script>
 
 <template>
 	<!-- <div class="mappopup">
@@ -16,16 +15,47 @@
     </div> -->
 	<div class="mappopup">
 		<div class="mappopup-tab">
-			<div v-for="( mapConfig, index) in mapConfigs" :key="mapConfig.id"
-				:class="{ 'mappopup-tab-active': activeTab === index }">
-				<button @click="() => { activeTab = index }">{{ activeTab === index ? mapConfig.title :
-					(mapConfig.title.length > 5 ? mapConfig.title.slice(0, 4) + "..." : mapConfig.title) }}</button>
+			<div
+				v-for="(mapConfig, index) in mapConfigs"
+				:key="mapConfig.id"
+				:class="{ 'mappopup-tab-active': activeTab === index }"
+			>
+				<button
+					@click="
+						() => {
+							activeTab = index;
+						}
+					"
+				>
+					{{
+						activeTab === index
+							? mapConfig.title
+							: mapConfig.title.length > 5
+							? mapConfig.title.slice(0, 4) + "..."
+							: mapConfig.title
+					}}
+				</button>
 			</div>
 		</div>
 		<div class="mappopup-content">
 			<div v-for="item in mapConfigs[activeTab].property" :key="item.key">
+				{{ console.log(mapConfigs) }}
 				<h3>{{ item.name }}</h3>
-				<p>{{ popupContent[activeTab].properties[item.key] }}</p>
+				<div v-if="item.name === '鄰近捷運站'">
+					<p>
+						{{
+							popupContent[activeTab].properties[item.key]
+								.replace(/^\[|\]$/g, "")
+								.replace(/"/g, "")
+								.trim()
+						}}
+					</p>
+				</div>
+				<div v-if="item.name !== '鄰近捷運站'">
+					<p>
+						{{ popupContent[activeTab].properties[item.key] }}
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -34,11 +64,11 @@
 <style lang="scss">
 @keyframes easein {
 	0% {
-		opacity: 0
+		opacity: 0;
 	}
 
 	100% {
-		opacity: 1
+		opacity: 1;
 	}
 }
 
@@ -107,7 +137,9 @@
 			color: var(--color-complement-text);
 			font-size: var(--font-s);
 			text-align: center;
-			transition: color 0.2s, opacity 0.2s;
+			transition:
+				color 0.2s,
+				opacity 0.2s;
 			user-select: none;
 
 			&:hover {

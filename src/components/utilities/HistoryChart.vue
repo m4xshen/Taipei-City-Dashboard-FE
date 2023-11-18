@@ -51,12 +51,12 @@ const chartOptions = ref({
 				'<div class="chart-tooltip">' +
 				"<h6>" +
 				`${parseTime(
-					w.config.series[seriesIndex].data[dataPointIndex].x
+					w.config.series[seriesIndex].data[dataPointIndex].x,
 				)}` +
 				"</h6>" +
 				"<span>" +
 				series[seriesIndex][dataPointIndex] +
-				` ${props.chart_config.unit}` +
+				` ${props.chart_config.unit[0]}` +
 				"</span>" +
 				"</div>"
 			);

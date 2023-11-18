@@ -16,52 +16,46 @@ const targetDistrict = ref(null);
 const districtColor = ref(props.chart_config.color[0]);
 const mousePosition = ref({ x: null, y: null });
 const selectedIndex = ref(null);
+const clickDistrict = ref("北投區");
+// const clickStatus = ref(true);
 
 // Parse District Data (to support 2D or 3D data)
 const districtData = computed(() => {
 	let output = {};
 	let highest = 0;
 	let sum = 0;
-	if (props.series.length === 1) {
-		props.series[0].data.forEach((item) => {
-			output[item.x] = item.y;
-			if (item.y > highest) {
-				highest = item.y;
-			}
-			sum += item.y;
-		});
-	} else if (props.series[0].data.length === 12) {
-		props.series[0].data.forEach((item) => {
-			output[item.x] = item.y;
-			if (item.y > highest) {
-				highest = item.y;
-			}
-			sum += item.y;
-		});
-	} else {
-		props.series.forEach((serie) => {
-			for (let i = 0; i < 12; i++) {
-				if (!output[props.chart_config.categories[i]]) {
-					output[props.chart_config.categories[i]] = 0;
-				}
-				output[props.chart_config.categories[i]] += +serie.data[i];
-			}
-		});
-		highest = Object.values(output).sort(function (a, b) {
-			return b - a;
-		})[0];
-		sum = Object.values(output).reduce(
-			(partialSum, a) => partialSum + a,
-			0,
-		);
-	}
+
+	props.series[0].data.forEach((item) => {
+		output[item.x] = item.y;
+		if (item.y > highest) {
+			highest = item.y;
+		}
+		sum += item.y;
+	});
 
 	output.highest = highest;
 	output.sum = sum;
 	return output;
 });
-//哺乳
-const breastfeedingRoomData = computed(() => {
+
+const bornData = computed(() => {
+	let output = {};
+	let highest = 0;
+	let sum = 0;
+
+	props.series[1].data.forEach((item) => {
+		output[item.x] = item.y;
+		if (item.y > highest) {
+			highest = item.y;
+		}
+		sum += item.y;
+	});
+
+	output.highest = highest;
+	output.sum = sum;
+	return output;
+});
+const marryData = computed(() => {
 	let output = {};
 	let highest = 0;
 	let sum = 0;
@@ -78,13 +72,6 @@ const breastfeedingRoomData = computed(() => {
 	output.sum = sum;
 	return output;
 });
-const tooltipPosition = computed(() => {
-	return {
-		left: `${mousePosition.value.x + 20}px`,
-		top: `${mousePosition.value.y - 54}px`,
-	};
-});
-
 function toggleActive(e) {
 	targetDistrict.value = e.target.dataset.name;
 }
@@ -96,50 +83,92 @@ function updateMouseLocation(e) {
 	mousePosition.value.y = e.pageY;
 }
 
-function handleDataSelection(index) {
-	if (!props.chart_config.map_filter) {
-		return;
-	}
-	if (index !== selectedIndex.value) {
-		mapStore.addLayerFilter(
-			`${props.map_config[0].index}-${props.map_config[0].type}`,
-			props.chart_config.map_filter[0],
-			props.chart_config.map_filter[1][index],
-		);
-		selectedIndex.value = index;
-	} else {
-		mapStore.clearLayerFilter(
-			`${props.map_config[0].index}-${props.map_config[0].type}`,
-		);
-		selectedIndex.value = null;
-	}
+function handleDataSelection() {
+	clickDistrict.value = targetDistrict.value;
 }
 </script>
 
 <template>
-	<div
-		v-if="activeChart === 'CustomDistrictChart'"
-		class="CustomDistrictChart"
-	>
-		<div class="CustomDistrictChart-title">
-			<h5>全商圈數量</h5>
-			<h6>{{ districtData.sum }} {{ chart_config.unit }}</h6>
-			<div class="CustomDistrictChart-title-legend">
-				<p>多</p>
+	<div v-if="activeChart === 'WhereDistrictChart'" class="WhereDistrictChart">
+		<div v-if="clickDistrict" class="WhereDistrictChart-chart-info">
+			<h4>{{ clickDistrict }}</h4>
+			<div
+				:style="{
+					width: '80%',
+					borderBottom: '1px solid #cbcbcb',
+					paddingBottom: '8px',
+					marginBottom: '16px',
+				}"
+			></div>
+			<div
+				v-for="item in props.series"
+				:style="{
+					width: '100%',
+					display: 'flex',
+					flexDirection: 'column',
+					alignItems: 'flex-start',
+					justifyContent: 'flex-start',
+					gap: '1px',
+					margin: '4px 0',
+				}"
+			>
 				<div
-					:style="{ backgroundColor: props.chart_config.color[0] }"
-				></div>
-				<p>少</p>
+					:style="{
+						fontSize: '14px',
+						color: '#cbcbcb',
+					}"
+				>
+					{{ item.name }}
+				</div>
+
+				<div
+					v-if="item.name === '嬰兒出生數'"
+					class="WhereDistrictChart-chart-info-text"
+				>
+					<div
+						:style="{
+							fontSize: '30px',
+						}"
+					>
+						{{ districtData[clickDistrict] }}
+					</div>
+					{{ chart_config.unit[1] }}
+				</div>
+
+				<span
+					v-if="item.name === '一般生育率'"
+					class="WhereDistrictChart-chart-info-text"
+					><div
+						:style="{
+							fontSize: '30px',
+						}"
+					>
+						{{ bornData[clickDistrict] }}
+					</div>
+					{{ chart_config.unit[0] }}</span
+				>
+				<span
+					v-if="item.name === '粗結婚率'"
+					class="WhereDistrictChart-chart-info-text"
+					><div
+						:style="{
+							fontSize: '30px',
+						}"
+					>
+						{{ marryData[clickDistrict] }}
+					</div>
+					{{ chart_config.unit[0] }}</span
+				>
 			</div>
 		</div>
-		<div class="CustomDistrictChart-chart">
+		<div class="WhereDistrictChart-chart">
 			<svg viewBox="0 0 413 550" xmlns="http://www.w3.org/2000/svg">
 				<g>
 					<path
 						data-name="北投區"
 						:class="{
 							'active-district':
-								targetDistrict === '北投區' ||
+								clickDistrict === '北投區' ||
 								selectedIndex === 0,
 							'initial-animation-1': true,
 						}"
@@ -157,7 +186,7 @@ function handleDataSelection(index) {
 						data-name="士林區"
 						:class="{
 							'active-district':
-								targetDistrict === '士林區' ||
+								clickDistrict === '士林區' ||
 								selectedIndex === 1,
 							'initial-animation-2': true,
 						}"
@@ -175,7 +204,7 @@ function handleDataSelection(index) {
 						data-name="內湖區"
 						:class="{
 							'active-district':
-								targetDistrict === '內湖區' ||
+								clickDistrict === '內湖區' ||
 								selectedIndex === 2,
 							'initial-animation-3': true,
 						}"
@@ -193,7 +222,7 @@ function handleDataSelection(index) {
 						data-name="中山區"
 						:class="{
 							'active-district':
-								targetDistrict === '中山區' ||
+								clickDistrict === '中山區' ||
 								selectedIndex === 6,
 							'initial-animation-4': true,
 						}"
@@ -211,7 +240,7 @@ function handleDataSelection(index) {
 						data-name="大同區"
 						:class="{
 							'active-district':
-								targetDistrict === '大同區' ||
+								clickDistrict === '大同區' ||
 								selectedIndex === 7,
 							'initial-animation-5': true,
 						}"
@@ -229,7 +258,7 @@ function handleDataSelection(index) {
 						data-name="中正區"
 						:class="{
 							'active-district':
-								targetDistrict === '中正區' ||
+								clickDistrict === '中正區' ||
 								selectedIndex === 8,
 							'initial-animation-6': true,
 						}"
@@ -247,7 +276,7 @@ function handleDataSelection(index) {
 						data-name="萬華區"
 						:class="{
 							'active-district':
-								targetDistrict === '萬華區' ||
+								clickDistrict === '萬華區' ||
 								selectedIndex === 9,
 							'initial-animation-7': true,
 						}"
@@ -265,7 +294,7 @@ function handleDataSelection(index) {
 						data-name="大安區"
 						:class="{
 							'active-district':
-								targetDistrict === '大安區' ||
+								clickDistrict === '大安區' ||
 								selectedIndex === 10,
 							'initial-animation-8': true,
 						}"
@@ -283,7 +312,7 @@ function handleDataSelection(index) {
 						data-name="信義區"
 						:class="{
 							'active-district':
-								targetDistrict === '信義區' ||
+								clickDistrict === '信義區' ||
 								selectedIndex === 5,
 							'initial-animation-9': true,
 						}"
@@ -301,7 +330,7 @@ function handleDataSelection(index) {
 						data-name="松山區"
 						:class="{
 							'active-district':
-								targetDistrict === '松山區' ||
+								clickDistrict === '松山區' ||
 								selectedIndex === 4,
 							'initial-animation-10': true,
 						}"
@@ -319,7 +348,7 @@ function handleDataSelection(index) {
 						data-name="南港區"
 						:class="{
 							'active-district':
-								targetDistrict === '南港區' ||
+								clickDistrict === '南港區' ||
 								selectedIndex === 3,
 							'initial-animation-11': true,
 						}"
@@ -337,7 +366,7 @@ function handleDataSelection(index) {
 						data-name="文山區"
 						:class="{
 							'active-district':
-								targetDistrict === '文山區' ||
+								clickDistrict === '文山區' ||
 								selectedIndex === 11,
 							'initial-animation-12': true,
 						}"
@@ -354,129 +383,47 @@ function handleDataSelection(index) {
 				</g>
 			</svg>
 		</div>
-
-		<!-- The class "chart-tooltip" could be edited in /assets/styles/chartStyles.css -->
-		<div
-			v-if="targetDistrict"
-			class="CustomDistrictChart-chart-info chart-tooltip"
-			:style="tooltipPosition"
-		>
-			<h6>{{ targetDistrict }}</h6>
-			<div
-				:style="{
-					display: 'flex',
-					flexDirection: 'row',
-					alignItems: 'center',
-					justifyContent: 'flex-start',
-					gap: '4px',
-				}"
-			>
-				<div
-					:style="{
-						borderRadius: '50%',
-						width: '10px',
-						height: '10px',
-						backgroundColor: 'white',
-					}"
-				></div>
-				商圈
-				<span
-					>{{ districtData[targetDistrict] }}
-					{{ chart_config.unit }}</span
-				>
-			</div>
-			<div
-				:style="{
-					display: 'flex',
-					flexDirection: 'row',
-					alignItems: 'center',
-					justifyContent: 'flex-start',
-					gap: '4px',
-				}"
-			>
-				<img src="/public/images/map/breastfeeding.png" width="10" />
-				哺乳室
-				<span
-					>{{ breastfeedingRoomData[targetDistrict] }}
-					{{ chart_config.unit }}</span
-				>
-			</div>
-		</div>
 	</div>
 </template>
 
 <style scoped lang="scss">
-.CustomDistrictChart {
-	max-height: 100%;
+.WhereDistrictChart {
 	position: relative;
+	width: 100%;
+	max-height: 100%;
 	overflow-y: scroll;
-
-	&-title {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		position: absolute;
-		left: 0;
-		top: 0;
-		margin: 0.5rem 0 -0.5rem;
-
-		h5 {
-			color: var(--color-complement-text);
-		}
-
-		h6 {
-			color: var(--color-complement-text);
-			font-size: var(--font-m);
-			font-weight: 400;
-		}
-
-		&-legend {
-			display: flex;
-			justify-content: space-between;
-
-			div {
-				position: relative;
-				width: 3rem;
-				margin: 0 4px;
-				border-radius: 5px;
-			}
-
-			div:before {
-				content: "";
-				width: 3rem;
-				height: var(--font-l);
-				position: absolute;
-				top: 0;
-				left: 0;
-				background: linear-gradient(
-					270deg,
-					rgba(40, 42, 44, 1),
-					rgba(40, 42, 44, 0.2)
-				);
-			}
-
-			p {
-				color: var(--color-complement-text);
-			}
-		}
-	}
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 
 	&-chart {
-		display: flex;
 		justify-content: center;
+		align-self: center;
+		margin: 5%;
 
 		svg {
-			width: 50%;
-
+			width: 60%;
 			path {
+				cursor: pointer;
 				transition: transform 0.2s;
 				opacity: 0;
 			}
 		}
 
 		&-info {
-			position: fixed;
-			z-index: 20;
+			width: 40%;
+			position: absolute;
+			right: 0;
+			// z-index: 20;
+			&-text {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				gap: 8px;
+				margin-bottom: 4px;
+				color: #cbcbcb;
+			}
 		}
 	}
 }

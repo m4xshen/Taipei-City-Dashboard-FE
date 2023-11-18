@@ -31,7 +31,8 @@ const circlePositions = {
 	G: { x: 150, y: 30 },
 	BL: { x: 10, y: 145 },
 	BR: { x: 110, y: 140 },
-	O: { x: 220, y: 140 },
+	O: { x: 220, y: 110 },
+	Y: { x: 190, y: 190 },
 };
 const numToColor = {
 	R: "#E3002C",
@@ -39,6 +40,7 @@ const numToColor = {
 	BL: "#2476BF",
 	BR: "#9A6940",
 	O: "#F99526",
+	Y: "#fcd100",
 };
 const numToMRT = {
 	R: "淡水信義線",
@@ -46,6 +48,7 @@ const numToMRT = {
 	BL: "板南線",
 	BR: "文湖線",
 	O: "中和新蘆線",
+	Y: "環狀線",
 };
 const maxNumber = Math.max(...chartData.map((item) => item.y));
 const selectedIndex = ref(null);
@@ -67,16 +70,19 @@ function handleDataSelection(e, chartContext, config) {
 			fieldValue = "R";
 			break;
 		case 1:
-			fieldValue = "G";
+			fieldValue = "BR";
 			break;
 		case 2:
 			fieldValue = "BL";
 			break;
 		case 3:
-			fieldValue = "BR";
+			fieldValue = "G";
 			break;
 		case 4:
 			fieldValue = "O";
+			break;
+		case 5:
+			fieldValue = "Y";
 			break;
 		default:
 			break;
