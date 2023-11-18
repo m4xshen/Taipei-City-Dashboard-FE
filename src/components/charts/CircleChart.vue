@@ -35,12 +35,12 @@ const circlePositions = {
 	Y: { x: 190, y: 190 },
 };
 const numToColor = {
-	R: "#E3002C",
-	G: "#0E693E",
-	BL: "#2476BF",
-	BR: "#9A6940",
-	O: "#F99526",
-	Y: "#fcd100",
+	R: "#E75672",
+	G: "#1D6B46",
+	BL: "#4688C2",
+	BR: "#987455",
+	O: "#FDA544",
+	Y: "#F0D44E",
 };
 const numToMRT = {
 	R: "淡水信義線",
