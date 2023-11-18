@@ -286,6 +286,12 @@ export const maplayerCommonLayout = {
 	"symbol-triangle_white": {
 		"icon-image": "triangle_white",
 	},
+	"symbol-breastfeeding": {
+		"icon-image": "breastfeeding",
+	},
+	"symbol-no_smoke": {
+		"icon-image": "no_smoke",
+	},
 	"symbol-youbike": {
 		"icon-image": [
 			"case",
