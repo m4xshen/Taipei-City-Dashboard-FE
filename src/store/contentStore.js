@@ -153,6 +153,7 @@ export const useContentStore = defineStore("content", {
 					.then((rs) => {
 						this.currentDashboard.content[index].chart_data =
 							rs.data.data;
+						// console.log(this.currentDashboard.content[index]);
 					})
 					.catch((e) => {
 						console.error(e);

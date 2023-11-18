@@ -41,14 +41,21 @@
 			<div v-for="item in mapConfigs[activeTab].property" :key="item.key">
 				{{ console.log(mapConfigs) }}
 				<h3>{{ item.name }}</h3>
-				<p>
-					{{
-						popupContent[activeTab].properties[item.key]
-							.replace(/^\[|\]$/g, "")
-							.replace(/"/g, "")
-							.trim()
-					}}
-				</p>
+				<div v-if="item.name === '鄰近捷運站'">
+					<p>
+						{{
+							popupContent[activeTab].properties[item.key]
+								.replace(/^\[|\]$/g, "")
+								.replace(/"/g, "")
+								.trim()
+						}}
+					</p>
+				</div>
+				<div v-if="item.name !== '鄰近捷運站'">
+					<p>
+						{{ popupContent[activeTab].properties[item.key] }}
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -1,0 +1,830 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "care.1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52824997041756, 25.09274997985584]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "禧悅生產後護理之家",
+        "phone": "(02)28839288",
+        "dist": "士林區",
+        "addr": "臺北市士林區中山北路五段500號、502號3樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52393999580477, 25.094669980506723]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "禾馨士林產後護理之家",
+        "phone": "(02)28827333",
+        "dist": "士林區",
+        "addr": "臺北市士林區中正路289-1號1-10樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.51961996290817, 25.093410012821394]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "康和士林產後護理之家",
+        "phone": "(02)28356628",
+        "dist": "士林區",
+        "addr": "臺北市士林區中正路420號6樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.51961996290817, 25.093410012821394]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "璽悅精緻產後護理之家",
+        "phone": "(02)28312121",
+        "dist": "士林區",
+        "addr": "臺北市士林區中正路420號8樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53365001153838, 25.116370015366172]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "璽悅天母產後護理之家",
+        "phone": "(02)77297775",
+        "dist": "士林區",
+        "addr": "臺北市士林區忠誠路二段188號3樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52144000936369, 25.102490002802796]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "藍田士林產後護理之家",
+        "phone": "(02)28336833",
+        "dist": "士林區",
+        "addr": "臺北市士林區福國路108號2F-1,2、3F-1,2,3、4F-1,2、5F-1,2、6F-1,2、7F-1,2,3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.50889003719618, 25.05069000881663]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "臺北市立聯合醫院附設中興產後護理之家",
+        "phone": "(02)25523234",
+        "dist": "大同區",
+        "addr": "臺北市大同區鄭州路145號9樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.54622001645447, 25.03173999257001]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "壹壹產後護理之家",
+        "phone": "(02)27031112",
+        "dist": "大安區",
+        "addr": "臺北市大安區大安路二段39號及39-1號1-7樓及地下1樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53548003245868, 25.044620002175037]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "英倫市民大道館產後護理之家",
+        "phone": "(02)27788618",
+        "dist": "大安區",
+        "addr": "臺北市大安區市民大道三段152號、156號1～7樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.55256997866212, 25.04166001688766]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "馥御產後護理之家",
+        "phone": "(02)87716877",
+        "dist": "大安區",
+        "addr": "臺北市大安區忠孝東路四段221號9樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5476199619228, 25.04174999661825]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "愛兒家產後護理之家",
+        "phone": "(02)87738628",
+        "dist": "大安區",
+        "addr": "臺北市大安區忠孝東路四段87號6樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.55108001155361, 25.023330010018924]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "英倫大安館產後護理之家",
+        "phone": "(02)23773996",
+        "dist": "大安區",
+        "addr": "臺北市大安區基隆路二段228之1號、230號1-7樓、230號7樓之1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.13",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.54842001458093, 25.031370015363848]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "周大中婦產科診所附設產後護理之家",
+        "phone": "(02)27552757",
+        "dist": "大安區",
+        "addr": "臺北市大安區敦化南路二段46號2樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.14",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53565001745505, 25.040569992289207]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "孕學林產後護理之家",
+        "phone": "(02)27115969",
+        "dist": "大安區",
+        "addr": "臺北市大安區新生南路一段103巷32-3號1-7樓、B1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52305000532562, 25.05727998682171]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "李義男婦產科診所附設產後護理之家",
+        "phone": "(02)25611688",
+        "dist": "中山區",
+        "addr": "臺北市中山區中山北路二段71號5樓及5樓之1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.16",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52265999537087, 25.05947998494817]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "人之初產後護理之家",
+        "phone": "(02)25683777",
+        "dist": "中山區",
+        "addr": "臺北市中山區中山北路二段96號8樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.17",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53286999162884, 25.060650014812424]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "優兒寶產後護理之家",
+        "phone": "(02)77027600",
+        "dist": "中山區",
+        "addr": "臺北市中山區松江路318號14樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.18",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53394002538823, 25.050269991648506]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "協和婦女醫院附設產後護理之家",
+        "phone": "(02)25072222",
+        "dist": "中山區",
+        "addr": "臺北市中山區松江路85巷5號5、6、7樓、93巷6號3、5、6樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.19",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53440002423451, 25.048319983784253]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "木芯產後護理之家",
+        "phone": "(02)25172710",
+        "dist": "中山區",
+        "addr": "臺北市中山區長安東路二段88、90號11樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.20",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53440002423451, 25.048319983784253]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "木芳產後護理之家",
+        "phone": "(02)25170297",
+        "dist": "中山區",
+        "addr": "臺北市中山區長安東路二段88、90號7樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.21",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53444000591264, 25.048319983784253]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "木生婦產科診所附設產後護理之家",
+        "phone": "(02)25012312",
+        "dist": "中山區",
+        "addr": "臺北市中山區長安東路二段90號6樓、8樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.22",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53444000591264, 25.048319983784253]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "木恩產後護理之家",
+        "phone": "(02)25170210",
+        "dist": "中山區",
+        "addr": "臺北市中山區長安東路二段90號9樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.23",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53628000129771, 25.049540011700955]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "小青田大寶產後護理之家",
+        "phone": "(02)77021155",
+        "dist": "中山區",
+        "addr": "臺北市中山區建國北路一段80號7樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.24",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52872002754765, 25.06349998762063]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "育安蓁禾產後護理之家",
+        "phone": "(02)25997111",
+        "dist": "中山區",
+        "addr": "臺北市中山區新生北路三段11巷32號2-6樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.25",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.55272001472895, 25.082500001919684]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "薇閣薇恩產後護理之家",
+        "phone": "(02)85025577",
+        "dist": "中山區",
+        "addr": "臺北市中山區樂群三路56號3樓、3樓之1、3樓之2、4樓、4樓之1、4樓之2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.50589996087638, 25.034199997332976]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "環球敦品產後護理之家",
+        "phone": "(02)23715777",
+        "dist": "中正區",
+        "addr": "臺北市中正區中華路2段77號1-11樓及地下1.2樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.27",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.50939999218537, 25.0449899793812]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "汭恩產後護理之家",
+        "phone": "(02)23825588",
+        "dist": "中正區",
+        "addr": "臺北市中正區中華路一段39號21樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.28",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52898003418414, 25.04069999560747]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "璽悅婦兒產後護理之家",
+        "phone": "(02)23212211",
+        "dist": "中正區",
+        "addr": "臺北市中正區金山南路一段58號2樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.29",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52898003418414, 25.04069999560747]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "璽悅國際產後護理之家",
+        "phone": "(02)23212211",
+        "dist": "中正區",
+        "addr": "臺北市中正區金山南路一段58號3、4樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.30",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52898003418414, 25.04069999560747]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "璽悅金山產後護理之家",
+        "phone": "(02)23212211",
+        "dist": "中正區",
+        "addr": "臺北市中正區金山南路一段58號5、6樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.31",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.52706996608856, 25.03580001883013]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "令和產後護理之家",
+        "phone": "(02)23510988",
+        "dist": "中正區",
+        "addr": "臺北市中正區信義路2段79巷19號3-7樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.32",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5127372548554, 25.02456769474169]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "新月集產後護理之家",
+        "phone": "(02)23396789",
+        "dist": "中正區",
+        "addr": "臺北市中正區泉州街149號1-8樓及地下1室樓及屋突3層"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.33",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.53132001009368, 25.034299993437855]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "藍田產後護理之家",
+        "phone": "(02)33225000",
+        "dist": "中正區",
+        "addr": "臺北市中正區新生南路一段170巷13號3-5樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.34",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.51987996954466, 25.02965998138751]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "元氣御守產後護理之家",
+        "phone": "(02)23581555",
+        "dist": "中正區",
+        "addr": "臺北市中正區福州街9號1-13樓及地下1、2、3樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.35",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.59264997653321, 25.068189997723408]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "永安福華產後護理之家",
+        "phone": "(02)87927733",
+        "dist": "內湖區",
+        "addr": "臺北市內湖區民權東路六段180巷6號3樓、3樓之1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.36",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.59264997653321, 25.068189997723408]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "愛兒麗產後護理之家",
+        "phone": "(02)87914567",
+        "dist": "內湖區",
+        "addr": "臺北市內湖區民權東路六段180巷6號7樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.37",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.58534003495487, 25.06326998819749]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "大葉產後護理之家",
+        "phone": "(02)27951005",
+        "dist": "內湖區",
+        "addr": "臺北市內湖區行善路351、353、355號11、12樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.38",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.58534003495487, 25.06326998819749]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "嘉禾產後護理之家",
+        "phone": "(02)87911589",
+        "dist": "內湖區",
+        "addr": "臺北市內湖區行善路351、353、355號2至4樓及357、359號3至4樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.39",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.58534003495487, 25.06326998819749]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "璽恩產後護理之家",
+        "phone": "(02)27938168",
+        "dist": "內湖區",
+        "addr": "臺北市內湖區行善路351、353、355號5-6樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.40",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5733238125224, 25.077186644114356]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "國泰內湖產後護理之家",
+        "phone": "(02)26585999",
+        "dist": "內湖區",
+        "addr": "臺北市內湖區瑞光路337號11-13樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.41",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5733238125224, 25.077186644114356]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "媽媽餵內湖產後護理之家",
+        "phone": "(02)26582272",
+        "dist": "內湖區",
+        "addr": "臺北市內湖區瑞光路337號5-6樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.42",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4987500298297, 25.13053999986991]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "好寶貝北投一館產後護理之家",
+        "phone": "(02)28983267",
+        "dist": "北投區",
+        "addr": "臺北市北投區北投路二段11號6樓、6樓之1、2、3、5、6號"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.43",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.546569960912, 25.04803998630868]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "基督復臨安息日會醫療財團法人附設臺安產後護理之家",
+        "phone": "(02)27216259",
+        "dist": "松山區",
+        "addr": "臺北市松山區八德路二段400號11樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.44",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.55155995932944, 25.04806999352205]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "彌月房產後護理之家",
+        "phone": "(02)25770477",
+        "dist": "松山區",
+        "addr": "臺北市松山區八德路三段30號10樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.45",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.55170002093155, 25.04806999352205]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "彌月房三二產後護理之家",
+        "phone": "(02)25770497",
+        "dist": "松山區",
+        "addr": "臺北市松山區八德路三段32號10樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.46",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5614999744862, 25.04867998652564]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "健寶兒產後護理之家",
+        "phone": "(02)25280828",
+        "dist": "松山區",
+        "addr": "臺北市松山區八德路四段111號4至6樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.47",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.54691001472384, 25.06037001733685]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "時尚產後護理之家",
+        "phone": "(02)87706298",
+        "dist": "松山區",
+        "addr": "臺北市松山區民權東路三段140巷15號3樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.48",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.56214001661266, 25.051239987393487]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "御兒軒產後護理之家",
+        "phone": "(02)27479797",
+        "dist": "松山區",
+        "addr": "臺北市松山區南京東路五段108號11樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.49",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.55716996712476, 25.05341002021609]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "晶英產後護理之家",
+        "phone": "(02)27458880",
+        "dist": "松山區",
+        "addr": "臺北市松山區健康路152、156號6樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.50",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.55716996712476, 25.05341002021609]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "國泰台北會館產後護理之家",
+        "phone": "(02)27392029",
+        "dist": "松山區",
+        "addr": "臺北市松山區健康路152、156號7至8樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.51",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.54901999121023, 25.05898000442376]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "人之初敦化館產後護理之家",
+        "phone": "(02)27131680",
+        "dist": "松山區",
+        "addr": "臺北市松山區敦化北路230號1-3樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.52",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5577700275731, 25.03702997930209]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "滿園產後護理之家",
+        "phone": "(02)23458767",
+        "dist": "信義區",
+        "addr": "臺北市信義區光復南路415號2樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.53",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.56401999367586, 25.04143999192931]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "彌月房慶生產後護理之家",
+        "phone": "(02)27533770",
+        "dist": "信義區",
+        "addr": "臺北市信義區忠孝東路四段563號13樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.54",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.56401999367586, 25.04143999192931]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "彌月房信義產後護理之家",
+        "phone": "(02)27533777",
+        "dist": "信義區",
+        "addr": "臺北市信義區忠孝東路四段563號13樓之1、13樓之2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.55",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.57311997449636, 25.033290016014732]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "御兒產後護理之家",
+        "phone": "(02)27223380",
+        "dist": "信義區",
+        "addr": "臺北市信義區信義路五段109、111號2樓"
+      }
+    }
+  ]
+}

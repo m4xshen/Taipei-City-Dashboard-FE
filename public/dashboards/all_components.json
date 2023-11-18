@@ -2848,6 +2848,182 @@
 			"source": "衛生局",
 			"contributors": ["tuic"]
 		},
+		"200": {
+			"id": 200,
+			"index": "care",
+			"map_config": [
+				{
+					"source": "care-source",
+					"layer_id": "care1",
+					"index": "care",
+					"filter": ["!", ["has", "point_count"]],
+					"paint": {
+						"circle-color": "#a0b8e8",
+						"circle-opacity": 0.7,
+						"circle-radius": 3
+					},
+					"property": [
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "phone",
+							"name": "電話"
+						},
+						{
+							"key": "addr",
+							"name": "地址"
+						}
+					],
+					"type": "circle",
+					"title": "產後護理機構",
+					"cluster": true
+				},
+				{
+					"source": "care-source",
+					"layer_id": "care2",
+					"index": "care",
+					"filter": ["has", "point_count"],
+					"paint": {
+						"circle-color": "#a0b8e8",
+						"circle-opacity": 0.7,
+						"circle-radius": [
+							"step",
+							["get", "point_count"],
+							10,
+							5,
+							30,
+							10,
+							40,
+							15,
+							50
+						]
+					},
+					"type": "circle",
+					"cluster": false
+				},
+				{
+					"source": "care-source",
+					"layer_id": "care3",
+					"index": "care",
+					"filter": ["has", "point_count"],
+					"type": "symbol",
+					"cluster": false
+				}
+			],
+			"name": "產後護理機構",
+			"chart_config": {
+				"types": ["DistrictChart", "ColumnChart"],
+				"color": ["#a0b8e8"],
+				"unit": "間",
+				"map_filter": [
+					"dist",
+					[
+						"北投區",
+						"士林區",
+						"內湖區",
+						"南港區",
+						"松山區",
+						"信義區",
+						"中山區",
+						"大同區",
+						"中正區",
+						"萬華區",
+						"大安區",
+						"文山區"
+					]
+				]
+			}
+		},
+		"201": {
+			"id": 201,
+			"index": "counsel",
+			"map_config": [
+				{
+					"source": "counsel-source",
+					"layer_id": "counsel1",
+					"index": "counsel",
+					"filter": ["!", ["has", "point_count"]],
+					"paint": {
+						"circle-color": "#b7ff98",
+						"circle-opacity": 0.7,
+						"circle-radius": 3
+					},
+					"property": [
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "phone",
+							"name": "電話"
+						},
+						{
+							"key": "addr",
+							"name": "地址"
+						}
+					],
+					"type": "circle",
+					"title": "心理諮商機構",
+					"cluster": true
+				},
+				{
+					"source": "counsel-source",
+					"layer_id": "counsel2",
+					"index": "counsel",
+					"filter": ["has", "point_count"],
+					"paint": {
+						"circle-color": "#b7ff98",
+						"circle-opacity": 0.7,
+						"circle-radius": [
+							"step",
+							["get", "point_count"],
+							10,
+							5,
+							30,
+							10,
+							40,
+							15,
+							50
+						]
+					},
+					"type": "circle",
+					"cluster": false
+				},
+				{
+					"source": "counsel-source",
+					"layer_id": "counsel3",
+					"index": "counsel",
+					"filter": ["has", "point_count"],
+					"type": "symbol",
+					"cluster": false
+				}
+			],
+			"name": "心理諮商機構",
+			"chart_config": {
+				"types": ["DistrictChart", "ColumnChart"],
+				"color": ["#b7ff98"],
+				"unit": "間",
+				"map_filter": [
+					"dist",
+					[
+						"北投區",
+						"士林區",
+						"內湖區",
+						"南港區",
+						"松山區",
+						"信義區",
+						"中山區",
+						"大同區",
+						"中正區",
+						"萬華區",
+						"大安區",
+						"文山區"
+					]
+				]
+			}
+		},
 		"107": {
 			"id": 107,
 			"index": "aed",
@@ -4321,6 +4497,80 @@
 				"https://github.com/tpe-doit/YouBike-Optimization"
 			],
 			"contributors": ["tuic"]
+		},
+		"150": {
+			"id": 150,
+			"index": "child_care_institution",
+			"map_config": [
+				{
+					"index": "child_care_institution",
+					"paint": {
+					},
+					"property": [
+						{
+							"key": "type",
+							"name": "進度"
+						},
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "address",
+							"name": "地址"
+						},
+						{
+							"key": "rank",
+							"name": "評鑑等級"
+						}
+					],
+					"icon" : "child_care_institution",
+					"type": "symbol",
+					"title": "托育機構"
+				}
+			],
+			"chart_config": {
+				"color": [
+					"#fbb03b",
+					"#e55e5e",
+					"#3bb2d0",
+					"#ccc",
+					"#ccc",
+					"#ccc"
+				],
+				"types": ["MultiRadarChart"],
+				"unit": "所",
+				"map_filter": [
+					"type",
+					[
+						"托嬰中心",
+						"育兒友善園",
+						"公辦民營托嬰中心",
+						"兒童醫療補助特約醫療院所"
+					]
+				],
+				"categories":[
+					"托嬰中心",
+					"育兒友善園",
+					"公辦民營托嬰中心",
+					"兒童醫療補助特約醫療院所"
+				]
+			},
+			"name": "托育機構",
+			"source": "都發局",
+			"time_from": "2023-06-02T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": 1,
+			"update_freq_unit": "day",
+			"short_desc": "顯示托育機構點位",
+			"long_desc": "顯示目前托育機構點位，資料來源為台北市都發局公開資料，每日更新。",
+			"use_case": "了解台北市托育機構的興建進度及其具體位置，以及如何與社會福利機構的設置相關聯，並考慮人口需求的分布，從而制定更適合提供社會福利服務的社會住宅計畫。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=659c3565-df41-4f80-915f-95e83071bdcd"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
 		}
+		
 	}
 }

@@ -39,6 +39,7 @@ import MetroChart from "./components/charts/MetroChart.vue";
 import HeatmapChart from "./components/charts/HeatmapChart.vue";
 import CircleChart from "./components/charts/CircleChart.vue";
 import CircleBarChart from "./components/charts/CircleBarChart.vue";
+import MultiRadarChart from "./components/charts/MultiRadarChart.vue";
 
 const app = createApp(App);
 
@@ -65,5 +66,6 @@ app.component("MetroChart", MetroChart);
 app.component("HeatmapChart", HeatmapChart);
 app.component("CircleChart", CircleChart);
 app.component("CircleBarChart", CircleBarChart);
+app.component("MultiRadarChart", MultiRadarChart);
 
 app.mount("#app");

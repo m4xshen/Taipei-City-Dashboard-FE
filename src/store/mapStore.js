@@ -81,17 +81,19 @@ export const useMapStore = defineStore("map", {
 		// 2. Adds three basic layers to the map (Taipei District, Taipei Village labels, and Taipei 3D Buildings)
 		// Due to performance concerns, Taipei 3D Buildings won't be added in the mobile version
 		initializeBasicLayers() {
+			
 			const authStore = useAuthStore();
 			fetch(`${BASE_URL}/mapData/taipei_town.geojson`)
 				.then((response) => response.json())
 				.then((data) => {
 					this.map
-						.addSource("taipei_town", {
+						.f("taipei_town", {
 							type: "geojson",
 							data: data,
 						})
 						.addLayer(TaipeiTown);
 				});
+			
 			fetch(`${BASE_URL}/mapData/taipei_village.geojson`)
 				.then((response) => response.json())
 				.then((data) => {
@@ -102,6 +104,7 @@ export const useMapStore = defineStore("map", {
 						})
 						.addLayer(TaipeiVillage);
 				});
+			
 			if (!authStore.isMobileDevice) {
 				this.map
 					.addSource("taipei_building_3d_source", {
@@ -110,7 +113,7 @@ export const useMapStore = defineStore("map", {
 					})
 					.addLayer(TaipeiBuilding);
 			}
-
+			
 			this.addSymbolSources();
 		},
 		// 3. Adds symbols that will be used by some map layers
@@ -124,7 +127,12 @@ export const useMapStore = defineStore("map", {
 				"bike_green",
 				"bike_orange",
 				"bike_red",
+				"托嬰中心",
+				"公辦民營托嬰中心",
+				"公立幼稚園",
+				"兒童醫療補助特約醫療院所"
 			];
+			
 			images.forEach((element) => {
 				this.map.loadImage(
 					`${BASE_URL}/images/map/${element}.png`,
@@ -133,7 +141,9 @@ export const useMapStore = defineStore("map", {
 						this.map.addImage(element, image);
 					},
 				);
+				
 			});
+
 		},
 
 		/* Adding Map Layers */
@@ -141,6 +151,9 @@ export const useMapStore = defineStore("map", {
 		addToMapLayerList(map_config) {
 			map_config.forEach((element) => {
 				let mapLayerId = `${element.index}-${element.type}`;
+				if (element.layer_id) {
+					mapLayerId = element.layer_id;
+				}
 				// 1-1. If the layer exists, simply turn on the visibility and add it to the visible layers list
 				if (
 					this.currentLayers.find((element) => element === mapLayerId)
@@ -174,10 +187,23 @@ export const useMapStore = defineStore("map", {
 		},
 		// 3. Add the layer data as a source in mapbox
 		addMapLayerSource(map_config, data) {
-			this.map.addSource(`${map_config.layerId}-source`, {
-				type: "geojson",
-				data: { ...data },
-			});
+			const source = map_config?.source ? map_config.source : `${map_config.layerId}-source`
+			if (map_config?.cluster) {
+				this.map.addSource(source, {
+					type: "geojson",
+					data: { ...data },
+					cluster: true,
+					clusterRadius: 70,
+				});
+			}
+
+			if (map_config?.cluster === undefined) {
+				this.map.addSource(source, {
+					type: "geojson",
+					data: { ...data },
+				});
+			}
+
 			if (map_config.type === "arc") {
 				this.AddArcMapLayer(map_config, data);
 			} else {
@@ -189,6 +215,13 @@ export const useMapStore = defineStore("map", {
 		addMapLayer(map_config) {
 			let extra_paint_configs = {};
 			let extra_layout_configs = {};
+			if (map_config.layer_id === 'care3' || map_config.layer_id === 'counsel3') {
+				extra_layout_configs = {
+					"text-field": ["get", "point_count_abbreviated"],
+					"text-font": ["Arial Unicode MS Regular"],
+					"text-size": 16,
+				};
+			}
 			if (map_config.icon) {
 				extra_paint_configs = {
 					...maplayerCommonPaint[
@@ -201,6 +234,7 @@ export const useMapStore = defineStore("map", {
 					],
 				};
 			}
+
 			if (map_config.size) {
 				extra_paint_configs = {
 					...extra_paint_configs,
@@ -216,6 +250,8 @@ export const useMapStore = defineStore("map", {
 				};
 			}
 			this.loadingLayers.push("rendering");
+
+			const source = map_config?.source ? map_config.source : `${map_config.layerId}-source`
 			this.map.addLayer({
 				id: map_config.layerId,
 				type: map_config.type,
@@ -224,11 +260,12 @@ export const useMapStore = defineStore("map", {
 					...extra_paint_configs,
 					...map_config.paint,
 				},
+				filter: map_config?.filter ?? ['all'],
 				layout: {
 					...maplayerCommonLayout[`${map_config.type}`],
 					...extra_layout_configs,
 				},
-				source: `${map_config.layerId}-source`,
+				source,
 			});
 			this.currentLayers.push(map_config.layerId);
 			this.mapConfigs[map_config.layerId] = map_config;
@@ -335,8 +372,12 @@ export const useMapStore = defineStore("map", {
 		},
 		// 6. Turn off the visibility of an exisiting map layer but don't remove it completely
 		turnOffMapLayerVisibility(map_config) {
+			// BUG @m4xshen: Cluster circle radius change when toggle visibility 
 			map_config.forEach((element) => {
 				let mapLayerId = `${element.index}-${element.type}`;
+				if (element.layer_id) {
+					mapLayerId = element.layer_id;
+				}
 				this.loadingLayers = this.loadingLayers.filter(
 					(el) => el !== mapLayerId,
 				);
