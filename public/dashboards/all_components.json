@@ -3052,8 +3052,7 @@
 							"#a0b8e8",
 							"#b7ff98"
 						],
-						"circle-opacity": 0.7,
-						"circle-radius": 3
+						"circle-radius": 5
 					},
 					"type": "circle",
 					"title": "生育補助合約醫院"
