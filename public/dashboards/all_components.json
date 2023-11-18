@@ -2778,7 +2778,15 @@
 					"index": "care",
 					"paint": {
 						"circle-color": "#FFE677",
-						"circle-radius": 10
+						"circle-radius": [
+							"step",
+							["get", "point_count"],
+							10,
+							5,
+							30,
+							10,
+							40
+						]
 					},
 					"type": "circle",
 					"cluster": true

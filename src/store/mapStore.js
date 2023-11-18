@@ -175,11 +175,13 @@ export const useMapStore = defineStore("map", {
 		},
 		// 3. Add the layer data as a source in mapbox
 		addMapLayerSource(map_config, data) {
-			this.map.addSource(`${map_config.layerId}-source`, {
-				type: "geojson",
-				data: { ...data },
-				cluster: map_config?.cluster !== undefined,
-			});
+			if (!map_config?.cluster) {
+				this.map.addSource(`${map_config.layerId}-source`, {
+					type: "geojson",
+					data: { ...data },
+					cluster: map_config?.cluster !== undefined,
+				});
+			}
 			if (map_config.type === "arc") {
 				this.AddArcMapLayer(map_config, data);
 			} else {
@@ -486,7 +488,6 @@ export const useMapStore = defineStore("map", {
 
 			if (layer_id === "shopping_area-circle") {
 				this.map.setFilter(layer_id, ["in", key, ["get", property]]);
-				console.log("status", map_config);
 				if (status !== "district") {
 					this.map.setFilter("traffic_metro_line-line", [
 						"==",
