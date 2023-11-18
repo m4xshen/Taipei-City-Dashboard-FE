@@ -38,6 +38,40 @@ const districtData = computed(() => {
 	return output;
 });
 
+const bornData = computed(() => {
+	let output = {};
+	let highest = 0;
+	let sum = 0;
+
+	props.series[1].data.forEach((item) => {
+		output[item.x] = item.y;
+		if (item.y > highest) {
+			highest = item.y;
+		}
+		sum += item.y;
+	});
+
+	output.highest = highest;
+	output.sum = sum;
+	return output;
+});
+const marryData = computed(() => {
+	let output = {};
+	let highest = 0;
+	let sum = 0;
+
+	props.series[2].data.forEach((item) => {
+		output[item.x] = item.y;
+		if (item.y > highest) {
+			highest = item.y;
+		}
+		sum += item.y;
+	});
+
+	output.highest = highest;
+	output.sum = sum;
+	return output;
+});
 function toggleActive(e) {
 	targetDistrict.value = e.target.dataset.name;
 }
@@ -57,7 +91,15 @@ function handleDataSelection() {
 <template>
 	<div v-if="activeChart === 'WhereDistrictChart'" class="WhereDistrictChart">
 		<div v-if="clickDistrict" class="WhereDistrictChart-chart-info">
-			<h6>{{ clickDistrict }}</h6>
+			<h4>{{ clickDistrict }}</h4>
+			<div
+				:style="{
+					width: '80%',
+					borderBottom: '1px solid #cbcbcb',
+					paddingBottom: '8px',
+					marginBottom: '16px',
+				}"
+			></div>
 			<div
 				v-for="item in props.series"
 				:style="{
@@ -73,6 +115,7 @@ function handleDataSelection() {
 				<div
 					:style="{
 						fontSize: '14px',
+						color: '#cbcbcb',
 					}"
 				>
 					{{ item.name }}
@@ -93,14 +136,26 @@ function handleDataSelection() {
 				</div>
 
 				<span
-					v-if="item.name !== '嬰兒出生數'"
+					v-if="item.name === '一般生育率'"
 					class="WhereDistrictChart-chart-info-text"
 					><div
 						:style="{
 							fontSize: '30px',
 						}"
 					>
-						{{ districtData[clickDistrict] }}
+						{{ bornData[clickDistrict] }}
+					</div>
+					{{ chart_config.unit[0] }}</span
+				>
+				<span
+					v-if="item.name === '粗結婚率'"
+					class="WhereDistrictChart-chart-info-text"
+					><div
+						:style="{
+							fontSize: '30px',
+						}"
+					>
+						{{ marryData[clickDistrict] }}
 					</div>
 					{{ chart_config.unit[0] }}</span
 				>
@@ -367,6 +422,7 @@ function handleDataSelection() {
 				align-items: center;
 				gap: 8px;
 				margin-bottom: 4px;
+				color: #cbcbcb;
 			}
 		}
 	}

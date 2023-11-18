@@ -70,13 +70,13 @@ function handleDataSelection(e, chartContext, config) {
 			fieldValue = "R";
 			break;
 		case 1:
-			fieldValue = "G";
+			fieldValue = "BR";
 			break;
 		case 2:
 			fieldValue = "BL";
 			break;
 		case 3:
-			fieldValue = "BR";
+			fieldValue = "G";
 			break;
 		case 4:
 			fieldValue = "O";
