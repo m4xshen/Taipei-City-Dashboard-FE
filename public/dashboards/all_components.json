@@ -2808,9 +2808,13 @@
 			"index": "care",
 			"map_config": [
 				{
+					"source": "care-source",
+					"layer_id": "care1",
 					"index": "care",
+					"filter": ["!", ["has", "point_count"]],
 					"paint": {
-						"circle-color": "#FFE677",
+						"circle-color": "#a0b8e8",
+						"circle-opacity": 0.7,
 						"circle-radius": 3
 					},
 					"property": [
@@ -2829,12 +2833,16 @@
 					],
 					"type": "circle",
 					"title": "產後護理機構",
-					"cluster": false
+					"cluster": true
 				},
 				{
+					"source": "care-source",
+					"layer_id": "care2",
 					"index": "care",
+					"filter": ["has", "point_count"],
 					"paint": {
-						"circle-color": "#FFE677",
+						"circle-color": "#a0b8e8",
+						"circle-opacity": 0.7,
 						"circle-radius": [
 							"step",
 							["get", "point_count"],
@@ -2842,17 +2850,115 @@
 							5,
 							30,
 							10,
-							40
+							40,
+							15,
+							50
 						]
 					},
 					"type": "circle",
-					"cluster": true
+					"cluster": false
+				},
+				{
+					"source": "care-source",
+					"layer_id": "care3",
+					"index": "care",
+					"filter": ["has", "point_count"],
+					"type": "symbol",
+					"cluster": false
 				}
 			],
 			"name": "產後護理機構",
 			"chart_config": {
 				"types": ["DistrictChart", "ColumnChart"],
-				"color": ["#FFE677"],
+				"color": ["#a0b8e8"],
+				"unit": "間",
+				"map_filter": [
+					"dist",
+					[
+						"北投區",
+						"士林區",
+						"內湖區",
+						"南港區",
+						"松山區",
+						"信義區",
+						"中山區",
+						"大同區",
+						"中正區",
+						"萬華區",
+						"大安區",
+						"文山區"
+					]
+				]
+			}
+		},
+		"201": {
+			"id": 201,
+			"index": "counsel",
+			"map_config": [
+				{
+					"source": "counsel-source",
+					"layer_id": "counsel1",
+					"index": "counsel",
+					"filter": ["!", ["has", "point_count"]],
+					"paint": {
+						"circle-color": "#b7ff98",
+						"circle-opacity": 0.7,
+						"circle-radius": 3
+					},
+					"property": [
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "phone",
+							"name": "電話"
+						},
+						{
+							"key": "addr",
+							"name": "地址"
+						}
+					],
+					"type": "circle",
+					"title": "心理諮商機構",
+					"cluster": true
+				},
+				{
+					"source": "counsel-source",
+					"layer_id": "counsel2",
+					"index": "counsel",
+					"filter": ["has", "point_count"],
+					"paint": {
+						"circle-color": "#b7ff98",
+						"circle-opacity": 0.7,
+						"circle-radius": [
+							"step",
+							["get", "point_count"],
+							10,
+							5,
+							30,
+							10,
+							40,
+							15,
+							50
+						]
+					},
+					"type": "circle",
+					"cluster": false
+				},
+				{
+					"source": "counsel-source",
+					"layer_id": "counsel3",
+					"index": "counsel",
+					"filter": ["has", "point_count"],
+					"type": "symbol",
+					"cluster": false
+				}
+			],
+			"name": "心理諮商機構",
+			"chart_config": {
+				"types": ["DistrictChart", "ColumnChart"],
+				"color": ["#b7ff98"],
 				"unit": "間",
 				"map_filter": [
 					"dist",
