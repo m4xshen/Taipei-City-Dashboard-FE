@@ -1,0 +1,18 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"geometry": {
+				"coordinates": [121.56280083869423, 25.056614060815757],
+				"type": "Point"
+			},
+			"properties": {
+				"district": "松山區",
+				"c_name": "松山",
+				"c_MRT": ["G"],
+				"NAME": "健康國小周邊人行道"
+			},
+			"type": "Feature"
+		}
+	]
+}

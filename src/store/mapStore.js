@@ -119,6 +119,8 @@ export const useMapStore = defineStore("map", {
 				"metro",
 				"triangle_green",
 				"triangle_white",
+				"breastfeeding",
+				"no_smoke",
 				"bike_green",
 				"bike_orange",
 				"bike_red",
