@@ -139,6 +139,9 @@ export const useMapStore = defineStore("map", {
 		addToMapLayerList(map_config) {
 			map_config.forEach((element) => {
 				let mapLayerId = `${element.index}-${element.type}`;
+				if (element?.cluster) {
+					mapLayerId += "-cluster";
+				}
 				// 1-1. If the layer exists, simply turn on the visibility and add it to the visible layers list
 				if (
 					this.currentLayers.find((element) => element === mapLayerId)
@@ -175,6 +178,7 @@ export const useMapStore = defineStore("map", {
 			this.map.addSource(`${map_config.layerId}-source`, {
 				type: "geojson",
 				data: { ...data },
+				cluster: map_config?.cluster !== undefined,
 			});
 			if (map_config.type === "arc") {
 				this.AddArcMapLayer(map_config, data);
@@ -214,6 +218,11 @@ export const useMapStore = defineStore("map", {
 				};
 			}
 			this.loadingLayers.push("rendering");
+			const f = map_config?.cluster ? ["has", "point_count"] : ["!", ["has", "point_count"]];
+			let s = `${map_config.layerId}-source`;
+			if (map_config?.cluster) {
+				s = s.replace("-cluster", "");
+			}
 			this.map.addLayer({
 				id: map_config.layerId,
 				type: map_config.type,
@@ -222,11 +231,12 @@ export const useMapStore = defineStore("map", {
 					...extra_paint_configs,
 					...map_config.paint,
 				},
+				filter: f,
 				layout: {
 					...maplayerCommonLayout[`${map_config.type}`],
 					...extra_layout_configs,
 				},
-				source: `${map_config.layerId}-source`,
+				source: s,
 			});
 			this.currentLayers.push(map_config.layerId);
 			this.mapConfigs[map_config.layerId] = map_config;
@@ -333,8 +343,12 @@ export const useMapStore = defineStore("map", {
 		},
 		// 6. Turn off the visibility of an exisiting map layer but don't remove it completely
 		turnOffMapLayerVisibility(map_config) {
+			// BUG @m4xshen: Cluster circle radius change when toggle visibility 
 			map_config.forEach((element) => {
 				let mapLayerId = `${element.index}-${element.type}`;
+				if (element?.cluster) {
+					mapLayerId += "-cluster";
+				}
 				this.loadingLayers = this.loadingLayers.filter(
 					(el) => el !== mapLayerId,
 				);

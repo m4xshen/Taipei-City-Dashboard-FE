@@ -2753,7 +2753,8 @@
 				{
 					"index": "care",
 					"paint": {
-						"circle-color": "#FFE677"
+						"circle-color": "#FFE677",
+						"circle-radius": 3
 					},
 					"property": [
 						{
@@ -2770,7 +2771,17 @@
 						}
 					],
 					"type": "circle",
-					"title": "產後護理機構"
+					"title": "產後護理機構",
+					"cluster": false
+				},
+				{
+					"index": "care",
+					"paint": {
+						"circle-color": "#FFE677",
+						"circle-radius": 10
+					},
+					"type": "circle",
+					"cluster": true
 				}
 			],
 			"name": "產後護理機構",

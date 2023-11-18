@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "care.1",
+      "geometry": { "type": "Point", "coordinates": [121.5645, 25.034] },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "禧悅生產後護理之家",
+        "phone": "(02)28839288",
+        "dist": "士林區",
+        "addr": "臺北市士林區中山北路五段500號、502號3樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.2",
+      "geometry": { "type": "Point", "coordinates": [121.5643, 25.035] },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "臺北市立聯合醫院附設中興產後護理之家",
+        "phone": "(02)25523234",
+        "dist": "大同區",
+        "addr": "臺北市大同區鄭州路145號9樓"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "care.3",
+      "geometry": { "type": "Point", "coordinates": [121.5642, 25.035] },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "name": "臺北市立聯合醫院附設中興產後護理之家",
+        "phone": "(02)25523234",
+        "dist": "大同區",
+        "addr": "臺北市大同區鄭州路145號9樓"
+      }
+    }
+  ]
+}
