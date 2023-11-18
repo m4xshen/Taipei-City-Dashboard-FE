@@ -9,7 +9,7 @@
 		{
 			"name": "祝您好孕",
 			"index": "travel",
-			"components": ["75"],
+			"components": ["75", "150"],
 			"icon": "pedal_bike"
 		},
 		{

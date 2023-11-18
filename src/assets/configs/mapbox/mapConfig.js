@@ -358,4 +358,31 @@ export const maplayerCommonLayout = {
 			60,
 		],
 	},
+	"symbol-child_care_institution": {
+		"icon-image": [
+			"case",
+			["==", ["get", "type"], "托嬰中心"],
+			"托嬰中心",
+			["==", ["get", "type"], "公辦民營托嬰中心"],
+			"托嬰中心",
+			["==", ["get", "type"], "公立幼稚園"],
+			"公立幼稚園",
+			["==", ["get", "type"], "私立幼稚園"],
+			"公立幼稚園",
+			["==", ["get", "type"], "育兒友善園"],
+			"公立幼稚園",
+			"兒童醫療補助特約醫療院所"
+		],
+		"icon-size": [
+			"interpolate",
+			["linear"],
+			["zoom"],
+			11.99,
+			1,
+			14,
+			1.5,
+			22,
+			2,
+		],
+	},
 };
