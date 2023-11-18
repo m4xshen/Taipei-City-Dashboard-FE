@@ -1920,6 +1920,64 @@
 			"tags": [],
 			"contributors": ["tuic"]
 		},
+		"300": {
+			"id": 300,
+			"index": "lucky_where",
+			"chart_config": {
+				"color": ["#fb8c8c"],
+				"types": ["CustomDistrictChart"],
+				"unit": ["個", "‰"],
+				"categories": [
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
+				],
+
+				"map_filter": [
+					"c_name",
+					[
+						"北投",
+						"士林",
+						"內湖",
+						"南港",
+						"松山",
+						"信義",
+						"中山",
+						"大同",
+						"中正",
+						"萬華",
+						"大安",
+						"文山"
+					]
+				]
+			},
+			"name": "好運在哪裡",
+			"history_data": true,
+			"source": "民政局",
+			"time_from": "2023-05-26T23:29:00+08:00",
+			"time_to": null,
+			"update_freq": "",
+			"update_freq_unit": "minute",
+			"short_desc": "顯示過去一段時間內全市捷運進出站人流變化",
+			"long_desc": "顯示過去一段時間內全市捷運進出站人流變化，資料來源為台北市捷運工程局內部資料，每30分鐘更新。",
+			"use_case": "掌握過去一段時間內台北市捷運進出站人流變化，包括高峰與低峰時段，有助於更好地管理交通流量與安排車輛運行。",
+			"links": [
+				"https://statistics.health.gov.tw/tbl/a005嬰兒出生數(行政區別).html",
+				"https://statistics.health.gov.tw/tbl/a004育齡婦女生育率(行政區別).html",
+				"https://statistics.health.gov.tw/tbl/a003結婚情形(行政區別).html"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
 		"75": {
 			"id": 75,
 			"index": "shopping_area",
@@ -2104,17 +2162,19 @@
 				]
 			},
 			"name": "孕育好心情",
-			"history_data": true,
-			"source": "台北市商業處",
-			"time_from": "2023-05-26T23:29:00+08:00",
+			"history_data": false,
+			"source": "商業處、衛生局",
+			"time_from": "2023-11-14T21:44:00+08:00",
 			"time_to": null,
-			"update_freq": 30,
+			"update_freq": "",
 			"update_freq_unit": "minute",
-			"short_desc": "顯示過去一段時間內全市捷運進出站人流變化",
-			"long_desc": "顯示過去一段時間內全市捷運進出站人流變化，資料來源為台北市捷運工程局內部資料，每30分鐘更新。",
-			"use_case": "掌握過去一段時間內台北市捷運進出站人流變化，包括高峰與低峰時段，有助於更好地管理交通流量與安排車輛運行。",
+			"short_desc": "顯示商圈或哺乳室於各捷運路線和各行政區的數量",
+			"long_desc": "顯示商圈或哺乳室於各捷運路線和各行政區的數量，資料來源為台北市捷運工程局、商業處、衛生局。",
+			"use_case": "了解各捷運路線和各行政區的商圈、哺乳數量，有助於更好地讓孕期孕後婦女安排休閒行程。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=63f31c7e-7fc3-418b-bd82-b95158755b4d"
+				"https://data.taipei/dataset/detail?id=5d1d34d8-1b81-4162-87b6-05e0896af958",
+				"https://data.taipei/dataset/detail?id=5b10216e-df30-47f6-94ec-8140d0403782",
+				"https://data.gov.tw/dataset/134942"
 			],
 			"tags": [],
 			"contributors": ["tuic"]
