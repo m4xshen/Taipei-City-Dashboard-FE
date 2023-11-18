@@ -20,6 +20,8 @@ const chartOptions = ref({
 	},
 	legend: {
 		show: props.chart_config.categories ? true : false,
+
+		offsetY: -20,
 	},
 	markers: {
 		size: 3,
@@ -27,7 +29,7 @@ const chartOptions = ref({
 	},
 	plotOptions: {
 		radar: {
-			size: 90,
+			size: 75,
 			polygons: {
 				connectorColors: "#444",
 				strokeColors: "#555",
@@ -80,6 +82,7 @@ const chartOptions = ref({
 				return "";
 			},
 		},
+
 		// To fix a bug when there is more than 1 series
 		// Orginal behavior: max will default to the max sum of each series
 		max: function (max) {
@@ -104,7 +107,6 @@ const selectedDistrictSeries = computed(() => {
 	const selectedDistrictSeries = props.series.filter((element) => {
 		return element.name === selectedDistrict.value;
 	});
-	console.log(selectedDistrictSeries[0].name);
 	mapStore.clearLayerFilter(`child_care_institution-symbol`);
 	mapStore.addLayerFilter(
 		`child_care_institution-symbol`,
@@ -158,35 +160,36 @@ onUnmounted(() => {
 
 <template>
 	<!-- 選單 -->
-
-	<div class="custom-select">
-		<div class="select-head" @click="toggleDropdown">
-			<span class="select-head-cont">{{ selectedDistrict }}</span>
-			<span class="select-icon"
-				><img src="/public/images/map/select.png"
-			/></span>
+	<div :style="{ marginTop: '20px' }">
+		<div class="custom-select" v-if="activeChart === 'MultiRadarChart'">
+			<div class="select-head" @click="toggleDropdown">
+				<span class="select-head-cont">{{ selectedDistrict }}</span>
+				<span class="select-icon"
+					><img src="/public/images/map/select.png"
+				/></span>
+			</div>
+			<ul v-if="dropdownOpen" class="options">
+				<li
+					v-for="(seriesData, index) in series"
+					:key="index"
+					@click="selectOption(seriesData.name)"
+					class="option-item"
+				>
+					{{ seriesData.name }}
+				</li>
+			</ul>
 		</div>
-		<ul v-if="dropdownOpen" class="options">
-			<li
-				v-for="(seriesData, index) in series"
-				:key="index"
-				@click="selectOption(seriesData.name)"
-				class="option-item"
-			>
-				{{ seriesData.name }}
-			</li>
-		</ul>
-	</div>
 
-	<div v-if="activeChart === 'MultiRadarChart'" class="MultiRadarChart">
-		<!-- 將選擇的地區對應的 series 傳遞給 ApexChart -->
-		<apexchart
-			width="100%"
-			height="270px"
-			type="radar"
-			:options="chartOptions"
-			:series="selectedDistrictSeries"
-		></apexchart>
+		<div v-if="activeChart === 'MultiRadarChart'" class="MultiRadarChart">
+			<!-- 將選擇的地區對應的 series 傳遞給 ApexChart -->
+			<apexchart
+				width="100%"
+				height="270px"
+				type="radar"
+				:options="chartOptions"
+				:series="selectedDistrictSeries"
+			></apexchart>
+		</div>
 	</div>
 </template>
 

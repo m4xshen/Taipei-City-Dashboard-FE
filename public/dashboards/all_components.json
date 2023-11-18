@@ -1967,9 +1967,9 @@
 			"time_to": null,
 			"update_freq": "",
 			"update_freq_unit": "minute",
-			"short_desc": "顯示過去一段時間內全市捷運進出站人流變化",
-			"long_desc": "顯示過去一段時間內全市捷運進出站人流變化，資料來源為台北市捷運工程局內部資料，每30分鐘更新。",
-			"use_case": "掌握過去一段時間內台北市捷運進出站人流變化，包括高峰與低峰時段，有助於更好地管理交通流量與安排車輛運行。",
+			"short_desc": "顯示最近一年台北市出生率、生育率、結婚率分布狀況",
+			"long_desc": "顯示最近一年台北市出生率、生育率、結婚率分布狀況，資料來源為台北市民政局內部資料。",
+			"use_case": "掌握最近一年台北市出生率、生育率、結婚率分布，有助於了解各行政區差異。",
 			"links": [
 				"https://statistics.health.gov.tw/tbl/a005嬰兒出生數(行政區別).html",
 				"https://statistics.health.gov.tw/tbl/a004育齡婦女生育率(行政區別).html",
@@ -4509,7 +4509,7 @@
 					"property": [
 						{
 							"key": "type",
-							"name": "進度"
+							"name": "類別"
 						},
 						{
 							"key": "name",
@@ -4538,7 +4538,7 @@
 					"#ccc",
 					"#ccc"
 				],
-				"types": ["MultiRadarChart"],
+				"types": ["MultiRadarChart", "ChildTextChart"],
 				"unit": "所",
 				"map_filter": [
 					"district",

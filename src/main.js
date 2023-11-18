@@ -41,6 +41,7 @@ import CircleChart from "./components/charts/CircleChart.vue";
 import CircleBarChart from "./components/charts/CircleBarChart.vue";
 import MultiRadarChart from "./components/charts/MultiRadarChart.vue";
 import TextChart from "./components/charts/TextChart.vue";
+import ChildTextChart from "./components/charts/ChildTextChart.vue";
 
 const app = createApp(App);
 
@@ -69,4 +70,6 @@ app.component("CircleChart", CircleChart);
 app.component("CircleBarChart", CircleBarChart);
 app.component("MultiRadarChart", MultiRadarChart);
 app.component("TextChart", TextChart);
+app.component("ChildTextChart", ChildTextChart);
+
 app.mount("#app");

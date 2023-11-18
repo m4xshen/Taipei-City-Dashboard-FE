@@ -50,6 +50,7 @@ function handleDataSelection(e, chartContext, config) {
 
 <template>
 	<div v-if="activeChart === 'CircleBarChart'" class="CircleBarChart">
+		<div class="unit">商圈數量 單位：個</div>
 		<div
 			v-for="(item, index) in chartData"
 			:key="index"
@@ -101,13 +102,6 @@ function handleDataSelection(e, chartContext, config) {
 				>
 					{{ item.y }}
 				</div>
-				<div
-					:style="{ fontSize: '6px' }"
-					class="font"
-					:class="{ selected: isClick[index] }"
-				>
-					個
-				</div>
 			</div>
 		</div>
 	</div>
@@ -116,14 +110,19 @@ function handleDataSelection(e, chartContext, config) {
 <style scoped lang="scss">
 .CircleBarChart {
 	align-self: center;
-	width: 70%;
-	gap: 10px;
-	max-height: 100%;
+	width: 100%;
+	gap: 1px;
+	// max-height: 100%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: 10% 15%;
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-top: 30px;
+	box-sizing: border-box;
+}
+.unit {
+	font-size: 12px;
+	color: #bababa;
 }
 .font {
 	color: white;
@@ -132,13 +131,13 @@ function handleDataSelection(e, chartContext, config) {
 	}
 }
 .bar {
-	width: 100%;
+	width: 80%;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	flex-direction: row;
 	position: relative;
-	padding: 4px;
+	padding: 8px;
 	box-sizing: border-box;
 
 	&:hover {

@@ -17,4 +17,5 @@ export const chartTypes = {
 	HeatmapChart: "熱力圖",
 	MultiRadarChart: "多重雷達圖",
 	TextChart: "圖標介紹",
+	ChildTextChart: "圖標介紹",
 };
