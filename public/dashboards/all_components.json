@@ -4381,26 +4381,28 @@
 			"chart_config": {
 				"color": [
 					"#fbb03b",
-					"#223b53",
 					"#e55e5e",
 					"#3bb2d0",
 					"#ccc",
 					"#ccc",
 					"#ccc"
 				],
-				"types": ["DonutChart", "BarChart", "HeatmapChart", "RadarChart"],
+				"types": ["MultiRadarChart"],
 				"unit": "所",
 				"map_filter": [
 					"type",
 					[
 						"托嬰中心",
-						"公立幼稚園",
-						"私立幼稚園",
-						"產後護理機構",
 						"育兒友善園",
 						"公辦民營托嬰中心",
 						"兒童醫療補助特約醫療院所"
 					]
+				],
+				"categories":[
+					"托嬰中心",
+					"育兒友善園",
+					"公辦民營托嬰中心",
+					"兒童醫療補助特約醫療院所"
 				]
 			},
 			"name": "托育機構",

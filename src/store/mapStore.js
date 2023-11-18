@@ -143,7 +143,7 @@ export const useMapStore = defineStore("map", {
 				);
 				
 			});
-			console.log("images", this.map);
+
 		},
 
 		/* Adding Map Layers */

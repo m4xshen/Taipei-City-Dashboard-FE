@@ -39,6 +39,7 @@ const dataTime = computed(() => {
 });
 // Parses update frequency data into display format
 const updateFreq = computed(() => {
+
 	const unitRef = {
 		minute: "分",
 		hour: "時",
