@@ -7,6 +7,7 @@ export const chartTypes = {
 	BarPercentChart: "長條圖(%)",
 	TreemapChart: "矩形圖",
 	DistrictChart: "行政區圖",
+	CustomDistrictChart: "行政區圖",
 	MetroChart: "捷運行駛圖",
 	TimelineSeparateChart: "折線圖(比較)",
 	TimelineStackedChart: "折線圖(堆疊)",

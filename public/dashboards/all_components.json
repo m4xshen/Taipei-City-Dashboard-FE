@@ -2063,9 +2063,28 @@
 				}
 			],
 			"chart_config": {
-				"color": ["#2f9ca1"],
-				"types": ["CircleChart", "CircleBarChart"],
+				"color": ["#fb8c8c"],
+				"types": [
+					"CircleChart",
+					"CircleBarChart",
+					"CustomDistrictChart"
+				],
 				"unit": "個",
+				"categories": [
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
+				],
+
 				"map_filter": [
 					"c_name",
 					[

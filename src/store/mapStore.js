@@ -474,7 +474,6 @@ export const useMapStore = defineStore("map", {
 
 			if (layer_id === "shopping_area-circle") {
 				this.map.setFilter(layer_id, ["in", key, ["get", property]]);
-				console.log("status", map_config);
 				if (status !== "district") {
 					this.map.setFilter("traffic_metro_line-line", [
 						"==",
@@ -482,6 +481,28 @@ export const useMapStore = defineStore("map", {
 						key,
 					]);
 					this.map.setFilter("traffic_metro_station_new-symbol", [
+						"==",
+						["get", property],
+						key,
+					]);
+					this.map.setFilter("no_smoke_area-symbol", [
+						"==",
+						["get", property],
+						key,
+					]);
+					this.map.setFilter("breastfeeding_room-symbol", [
+						"==",
+						["get", property],
+						key,
+					]);
+				}
+				if (status !== "MRT") {
+					this.map.setFilter("no_smoke_area-symbol", [
+						"==",
+						["get", property],
+						key,
+					]);
+					this.map.setFilter("breastfeeding_room-symbol", [
 						"==",
 						["get", property],
 						key,
@@ -508,6 +529,12 @@ export const useMapStore = defineStore("map", {
 			if (layer_id === "shopping_area-circle" && status !== "district") {
 				this.map.setFilter("traffic_metro_line-line", null);
 				this.map.setFilter("traffic_metro_station_new-symbol", null);
+				this.map.setFilter("no_smoke_area-symbol", null);
+				this.map.setFilter("breastfeeding_room-symbol", null);
+			}
+			if (layer_id === "shopping_area-circle" && status !== "MRT") {
+				this.map.setFilter("no_smoke_area-symbol", null);
+				this.map.setFilter("breastfeeding_room-symbol", null);
 			}
 		},
 
