@@ -51,7 +51,21 @@
 						}}
 					</p>
 				</div>
-				<div v-if="item.name !== '鄰近捷運站'">
+				<div v-if="item.name === '檢查項目'">
+					<p>
+						{{
+							popupContent[activeTab].properties[item.key]
+								.replace(/^\[|\]$/g, "")
+								.replace(/"/g, "")
+								.trim()
+						}}
+					</p>
+				</div>
+				<div
+					v-if="
+						item.name !== '鄰近捷運站' && item.name !== '檢查項目'
+					"
+				>
 					<p>
 						{{ popupContent[activeTab].properties[item.key] }}
 					</p>
