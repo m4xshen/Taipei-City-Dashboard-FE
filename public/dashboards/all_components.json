@@ -1963,7 +1963,7 @@
 			"name": "好孕在哪裡",
 			"history_data": true,
 			"source": "民政局",
-			"time_from": "2023-05-26T23:29:00+08:00",
+			"time_from": "",
 			"time_to": null,
 			"update_freq": "",
 			"update_freq_unit": "minute",
@@ -3104,7 +3104,7 @@
 					"文山區"
 				]
 			},
-			"name": "生育補助合約醫院",
+			"name": "孕檢好安心",
 			"source": "衛生局",
 			"long_desc": "顯示生育補助合約醫院的分布情況及服務項目"
 		},
